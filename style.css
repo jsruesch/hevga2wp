@@ -1,0 +1,315 @@
+/*   
+Theme Name: Jweb WP Blank Theme
+Theme URI: n/a
+Description: Theme GLS11
+Author: Jake Ruesch
+Author URI: http://www.jsruesch.com
+Template: jweb_wp
+Version: 1
+*/
+/*------------------------------------------------------------------
+
+STYLESHEET CONTENTS
+
+    -- GLOBAL STYLES
+    -- MISC CLASSES
+    -- ACTIVE PAGE
+    -- CONTAINERS
+    -- NAVIGATION
+    -- ELEMENTS
+    -- FOOTER
+    
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+
+    Global Styles
+
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+
+    Mixins
+
+-------------------------------------------------------------------*/
+/* End Mixins */
+/*------------------------------------------------------------------
+
+    Responsive Styles
+    
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+
+    Mixins
+
+-------------------------------------------------------------------*/
+/* End Mixins */
+/*-----------------  Desktops  -----------------*/
+/* End Desktops */
+/*-----------------  Smartphones  -----------------*/
+/* End Smartphones */
+/*------------------------------------------------------------------
+
+    Mobile Navigation
+
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+
+    Mixins
+
+-------------------------------------------------------------------*/
+/* End Mixins */
+/* Menu Icon */
+@font-face {
+  font-family: 'fontello';
+  src: url("font/fontello.eot?65237108");
+  src: url("font/fontello.eot?65237108#iefix") format("embedded-opentype"), url("font/fontello.woff?65237108") format("woff"), url("font/fontello.ttf?65237108") format("truetype"), url("font/fontello.svg?65237108#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.mobile_nav {
+  /* Menu header background color */
+  background: #d14334;
+  /* Hide Mobile Nav */
+  display: none; }
+  .mobile_nav .navtoggle {
+    /* Styling the toggle menu link and hiding it */
+    display: none;
+    width: 100%;
+    padding: 20px;
+    background: none;
+    border: none;
+    cursor: pointer; }
+  .mobile_nav img {
+    height: 30px;
+    right: 22px;
+    top: 22px;
+    position: absolute; }
+
+/* Remove the blue Webkit background when element is tapped */
+a, button {
+  -webkit-tap-highlight-color: transparent; }
+
+.no-touch .mobile_nav {
+  /* Menu Item Style */ }
+  .no-touch .mobile_nav li {
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -ms-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    padding: 20px;
+    background: #1c2130;
+    border-top: 1px solid #2d3449;
+    color: white;
+    text-transform: uppercase;
+    font-family: proxima-nova;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 18px; }
+    .no-touch .mobile_nav li:hover {
+      background: #2d3449;
+      cursor: pointer;
+      color: #ffeaad; }
+
+/* Web Styles */
+@media (max-width: 635px) {
+  .page_wrap {
+    width: 100%;
+    float: left; }
+
+  .navigation_container {
+    display: none; }
+
+  .mobile_nav {
+    /* Unhide Mobile Nav */
+    display: block; }
+    .mobile_nav .navtoggle {
+      margin: 0;
+      display: block;
+      /* Menu Icon */
+      color: white;
+      font-size: 32px;
+      font-family: verdana;
+      text-align: left; }
+
+  /* If JavaScript is disabled, the menu stays open */
+  .no-js .mobile_nav ul {
+    max-height: 50em;
+    overflow: hidden; }
+
+  /* When JavaScript is enabled, we hide the menu */
+  .js .mobile_nav ul {
+    max-height: 0em;
+    overflow: hidden; }
+
+  /* Displaying the menu when the user has clicked on the button */
+  .js .mobile_nav .active + ul {
+    max-height: 50em;
+    overflow: hidden;
+    transition: max-height .4s; } }
+/* End Web */
+/* Smartphones */
+@media (max-device-width: 519px) {
+  .navigation_container {
+    display: none; }
+
+  .mobile_nav {
+    /* Unhide Mobile Nav */
+    display: block;
+    /* Style for the main nav button background */
+    background: #d14334;
+    /* Menu Item Style */ }
+    .mobile_nav li {
+      -webkit-transition: all 0.1s ease;
+      -moz-transition: all 0.1s ease;
+      -ms-transition: all 0.1s ease;
+      -o-transition: all 0.1s ease;
+      padding: 20px;
+      background: #1c2130;
+      border-top: 1px solid #2d3449;
+      color: white;
+      text-transform: uppercase;
+      font-family: proxima-nova;
+      font-weight: 700;
+      letter-spacing: 1px;
+      font-size: 18px; }
+      .mobile_nav li:hover {
+        background: #2d3449;
+        cursor: pointer;
+        color: #ffeaad; }
+    .mobile_nav .navtoggle {
+      margin: 0;
+      display: block;
+      /* Menu Icon */
+      color: white;
+      font-size: 32px;
+      font-family: verdana;
+      text-align: left; }
+
+  /* If JavaScript is disabled, the menu stays open */
+  .no-js .mobile_nav ul {
+    max-height: 30em;
+    overflow: hidden; }
+
+  /* When JavaScript is enabled, we hide the menu */
+  .js .mobile_nav ul {
+    max-height: 0em;
+    overflow: hidden; }
+
+  /* Displaying the menu when the user has clicked on the button */
+  .js .mobile_nav .active + ul {
+    max-height: 100em;
+    overflow: hidden;
+    transition: max-height .4s; } }
+/* End Smartphones */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  overflow: scroll; }
+
+ul {
+  list-style: none; }
+
+/* End Global Styles */
+/*------------------------------------------------------------------
+
+    Misc Classes
+
+-------------------------------------------------------------------*/
+.clear {
+  clear: both; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.bold {
+  font-weight: 800; }
+
+.italic {
+  font-style: italic; }
+
+.underline {
+  text-decoration: underline; }
+
+.center_text {
+  text-align: center; }
+
+.all_caps {
+  text-transform: uppercase; }
+
+.lower_case {
+  text-transform: lowercase; }
+
+/* End Misc Classes */
+/*------------------------------------------------------------------
+
+    Active Page
+
+-------------------------------------------------------------------*/
+/*
+  body#ID_NAME_HERE .Navigation_Name li.List_Item_Class_Here{ Style for active Nav button }
+*/
+/* End Active Page */
+/*------------------------------------------------------------------
+
+    Containers
+
+-------------------------------------------------------------------*/
+.one_fourth {
+  width: 25%; }
+
+.one_third {
+  width: 33.3%; }
+
+.half {
+  width: 50%; }
+
+.two_thirds {
+  width: 66.66%; }
+
+.full {
+  width: 100%;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.module {
+  padding: 10px; }
+
+.container {
+  background: white;
+  padding: 20px; }
+
+.center {
+  margin: 0 auto; }
+
+.wrap {
+  width: 980px;
+  margin: 0 auto; }
+
+/* End Containers */
+/*------------------------------------------------------------------
+
+    Navigation
+
+-------------------------------------------------------------------*/
+/* End Navigation */
+/*------------------------------------------------------------------
+
+    Elements
+
+-------------------------------------------------------------------*/
+/* End Elements */
+/*------------------------------------------------------------------
+
+    Footer
+
+-------------------------------------------------------------------*/
+/* End Footer */
+
+/*# sourceMappingURL=style.css.map */

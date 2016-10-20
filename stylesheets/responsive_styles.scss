@@ -1,0 +1,40 @@
+/**
+ * =========================================
+ * Imports
+ * =========================================
+ */
+
+@import 'mixins';
+
+/* END: Imports */
+
+@media screen and (max-width:768px){
+
+  .navbar-inverse .container{
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .container{
+    padding-right:  10px !important;
+    padding-left:   10px !important;
+    width: 85% !important;
+  }
+
+}
+@media (max-device-width:768px){
+
+  .navbar-inverse .container{
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .container{
+    padding-right:  10px !important;
+    padding-left:   10px !important;
+    width: 85% !important;
+  }
+
+}
