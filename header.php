@@ -160,10 +160,8 @@
   </script>
   <!-- END: Institution Accordion Setup -->
 
-	<?php wp_head(); ?>
-
+<?php wp_head(); ?>
 </head>
-
 <body <?php body_class(); ?>>
 
   <!--
@@ -182,13 +180,13 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.php"><img src="img/nav-logo.png"/></a>
+            <a class="navbar-brand" href="/hevga2wp/"><img src="/hevga2wp/wp-content/themes/hevga/img/nav-logo.png"/></a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="about.php">About</a></li>
+              <li><a href="/hevga2wp/wp-content/themes/hevga/about">About</a></li>
               <li><a href="reports.php">Reports</a></li>
               <li><a href="news.php">News</a></li>
               <li><a href="#">DC Meeting</a></li>
