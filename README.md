@@ -1,2 +1,2 @@
-# jwebwp
-JWeb is a blank wordpress theme
+# hevga
+Wordpress theme for HEVGA v.2
