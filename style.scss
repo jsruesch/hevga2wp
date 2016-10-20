@@ -1,196 +1,271 @@
-/*   
-Theme Name: Jweb WP Blank Theme
+/*
+Theme Name: HEVGA Theme
 Theme URI: n/a
-Description: Theme GLS11
+Description: Theme HEVGA
 Author: Jake Ruesch
 Author URI: http://www.jsruesch.com
-Template: jweb_wp
+Template: hevga
 Version: 1
 */
 
 
-/*------------------------------------------------------------------
-
-STYLESHEET CONTENTS
-
-    -- GLOBAL STYLES
-    -- MISC CLASSES
-    -- ACTIVE PAGE
-    -- CONTAINERS
-    -- NAVIGATION
-    -- ELEMENTS
-    -- FOOTER
-    
--------------------------------------------------------------------*/
-
-
-/*------------------------------------------------------------------
-
-    Global Styles
-
--------------------------------------------------------------------*/
+/**
+ * =========================================
+ * Imports
+ * =========================================
+ */
 
 @import 'mixins';
 @import 'responsive_styles';
-@import 'mobile_nav_style';
 
+/* END: Imports */
+
+
+
+/**
+ * =========================================
+ * Global Styles
+ * =========================================
+ */
 * {
     margin:0; padding:0;
 
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
-    }
+}
 
-html{ overflow:scroll;}
+html{
+  overflow: scroll;
+  min-height: 100%;
+  position: relative;
+}
 
-body{  }
+body{
+  font-family: 'Asap', sans-serif;
+  padding-bottom: 169px; /* Offset for Sticky Footer */
+}
 
-a{    
+a{
+    font-family: 'Asap', sans-serif; font-size: 18px;
+
      &:hover{
+       color: #fff !important;
+       background: $dblue;
+       text-decoration: none !important;
     }
 
 }
 
-
-p{  }
+p, li{ font-family: 'Asap', sans-serif; font-size: 18px; }
 
 ul{ list-style:none; }
 
 hr{  }
 
-h1{  }
-h2{  }
-h3{  }
-h4{  }
-h5{  }
+h1, h2, h3, h4, h5{
+  font-family: 'Asap', sans-serif !important;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
 
-::selection{  }
+table tr{ border-bottom: 1px solid $dgrey; }
 
-/* End Global Styles */
+::selection{ background: $black; color: white; }
+
+/* END: Global Styles */
 
 
-/*------------------------------------------------------------------
-
-    Misc Classes
-
--------------------------------------------------------------------*/
+/**
+ * =========================================
+ * Utility Classes
+ * =========================================
+ */
 
 .clear{ clear: both; }
-
 .left{ float:left; }
 .right{ float:right; }
-
-.bold{ font-weight:800;}
-.italic{ font-style: italic; }
-.underline{ text-decoration:underline; }
-
-.center_text{ text-align:center; }
-.all_caps{ text-transform:uppercase; }
-.lower_case{ text-transform:lowercase; }
-
-/* End Misc Classes */
-
-
-
-/*------------------------------------------------------------------
-
-    Active Page
-
--------------------------------------------------------------------*/
-
-    /*
-      body#ID_NAME_HERE .Navigation_Name li.List_Item_Class_Here{ Style for active Nav button }
-    */
-
-/* End Active Page */
-
-
-
-/*------------------------------------------------------------------
-
-    Containers
-
--------------------------------------------------------------------*/
-
-.one_fourth{ width:25%; }
-.one_third{ width:33.3%; }
-.half{ width:50%;}
-.two_thirds{ width:66.66%; }
+.mc{ margin-top: 20px; } /* Main Content margin to clear nav */
+.b-link{
+  @include transition;
+  &:hover{
+    @include transition;
+    opacity: .65;
+    cursor: pointer;
+  }
+}
 .full{ @include full; }
+.rep-img{
+  max-width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  margin-right: auto;
+  margin-left: auto;
+}
 
-.module{ padding:10px; }
-    .container{ background:white; padding:20px;}
-    
-.center{ @include center; }
-
-.wrap{ width:980px; @include center; }
-
-/* End Containers */
+/* END: Utility Classes */
 
 
+/**
+ * =========================================
+ * Navigation
+ * =========================================
+ */
 
-/*------------------------------------------------------------------
+.navbar{ margin-bottom: 0 !important; border: 0 !important; }
+.navbar-toggle{ border-radius: 0 !important; border: none !important; }
+.navbar-nav>li:hover { @include transition; background: $red; }
+.navbar-inverse .navbar-nav>li>a{
+  font-family: 'Asap', sans-serif;
+  font-size: 15px !important;
+  color: #fff !important;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
 
-    Navigation
+ /* END: Navigation */
 
--------------------------------------------------------------------*/
 
-.navigation_container{
+/**
+ * =========================================
+ * Elements
+ * =========================================
+ */
 
-    .navigation{
+.ec-profile{
+  transition: background-color 100ms linear;
+  background: $lgrey;
 
-        .nav{
+  img{
+    @include transition;
+    width: 125px;
+    height: 125px;
+  }
 
-            a{
+  &:hover{
+    transition: background-color 100ms linear;
+    cursor: pointer;
+    background: $lblue;
 
-               &:hover{
-
-               }
-                
-                li{
-
-                }
-            }
-        }
+    img{
+      @include transition;
+      opacity: .7;
     }
+  }
 }
 
+.dot{
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+}
 
-/* End Navigation */
+/* END: Elements */
+
+/**
+ * =========================================
+ * Carousel
+ * =========================================
+ */
+
+.carousel-inner .item img{
+  min-height: 325px;
+  max-height: 350px;
+  background-position: center;
+}
+.carousel-control:hover{ background: none !important; }
+
+ /* END: Carousel */
 
 
+/**
+ * =========================================
+ * Institution Accordion
+ * =========================================
+ */
 
-/*------------------------------------------------------------------
+ #accordion_usa,
+ #accordion_australia,
+ #accordion_brazil,
+ #accordion_canada,
+ #accordion_china,
+ #accordion_france,
+ #accordion_finland,
+ #accordion_guatemala,
+ #accordion_ireland,
+ #accordion_japan,
+ #accordion_mexico,
+ #accordion_scotland,
+ #accordion_singapore,
+ #accordion_slovakia,
+ #accordion_sweden,
+ #accordion_turkey,
+ #accordion_uk,
+ #accordion_venezuela,
+ #accordion_voting_members,
+ #accordion_non_voting_members{
+     @include full;
+     background:#F7F7F7;
+     padding:5px 0;
 
-    Elements
+     .ui-accordion-header{ padding: 12px 10px 10px 30px; }
 
--------------------------------------------------------------------*/
+     .ui-accordion-content{
+         padding: 20px;
+         background: #fff !important;
+         border-radius:0 0 0;
+     }
+
+     .ui-state-default{
+         background: #e6e6e6;
+         border-radius: 0 0 0;
+         border: none;
+     }
+
+     .ui-state-active{ background:#bababa; color:#333; }
+
+     li:nth-child(odd){
+         @include full;
+         padding: 10px 10px 10px 10px;
+         background: #ececec;
+     }
+
+     li:nth-child(even){
+         @include full;
+         padding: 10px 10px 10px 10px;
+         background: #fff;
+     }
+ }
+
+ /* END: Institution Accordion */
 
 
-/* End Elements */
+/**
+ * =========================================
+ * Footer
+ * =========================================
+ */
 
+.sticky-footer{
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
 
-
-/*------------------------------------------------------------------
-
-    Footer
-
--------------------------------------------------------------------*/
 .footer{
-
+  p, li, a{
+    font-size: 15px;
+  }
 }
 
-/* End Footer */
+.footer ul li a{
+  color: #666;
+  &:hover{
+    color: #888;
+    background: none;
+  }
+}
 
-
-
-
-
-
-
-
-
-
-
-
+/* END: Footer */
