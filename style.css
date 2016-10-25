@@ -771,6 +771,14 @@ table tr {
   width: 20px;
   border-radius: 10px; }
 
+.um {
+  opacity: 100 !important; }
+
+/* Make Ultimate Member Forms Visible */
+.um-s1 {
+  display: block !important; }
+
+/* Make UM Dropdowns Visible */
 /* END: Elements */
 /**
  * =========================================

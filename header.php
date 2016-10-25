@@ -7,7 +7,6 @@
 	<?php if (is_search()) { ?>
 	   <meta name="robots" content="noindex, nofollow" />
 	<?php } ?>
-
 	<title>
 		   <?php
 		      if (function_exists('is_tag') && is_tag()) {
@@ -28,139 +27,137 @@
 		         echo ' - page '. $paged; }
 		   ?>
 	</title>
-
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	<?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
-
-  <!-- jQuery -->
-  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <!-- Bootstrap -->
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css?family=Asap:400,700" rel="stylesheet">
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-  <!-- Institution Accordion Setup -->
-  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-  <!-- Linkable TR -->
-  <script type="text/javascript">
-    function DoNav(url)
-    {
-       document.location.href = url;
-    }
-  </script>
-  <script>
-        $(function() {
-          $( "#accordion_usa" ).accordion({
-            heightStyle: "content",
-            collapsible: true,
-            active: false
-          });
-    $( "#accordion_canada" ).accordion({
-            heightStyle: "content",
-            collapsible: true,
-            active: false
-          });
-    $( "#accordion_uk" ).accordion({
-            heightStyle: "content",
-            collapsible: true,
-            active: false
-          });
-    $( "#accordion_australia" ).accordion({
-            heightStyle: "content",
-            collapsible: true,
-            active: false
-          });
-    $( "#accordion_ireland" ).accordion({
-            heightStyle: "content",
-            collapsible: true,
-            active: false
-          });
-    $( "#accordion_france" ).accordion({
-            heightStyle: "content",
-            collapsible: true,
-            active: false
-          });
-    $( "#accordion_turkey" ).accordion({
-            heightStyle: "content",
-            collapsible: true,
-            active: false
-          });
-    $( "#accordion_singapore" ).accordion({
-            heightStyle: "content",
-            collapsible: true,
-            active: false
-          });
-    $( "#accordion_china" ).accordion({
-            heightStyle: "content",
-            collapsible: true,
-            active: false
-          });
-    $( "#accordion_japan" ).accordion({
-            heightStyle: "content",
-            collapsible: true,
-            active: false
-          });
-    $( "#accordion_guatemala" ).accordion({
-            heightStyle: "content",
-            collapsible: true,
-            active: false
-          });
-    $( "#accordion_mexico" ).accordion({
-            heightStyle: "content",
-            collapsible: true,
-            active: false
-          });
-    $( "#accordion_venezuela" ).accordion({
-            heightStyle: "content",
-            collapsible: true,
-            active: false
-          });
-    $( "#accordion_brazil" ).accordion({
-            heightStyle: "content",
-            collapsible: true,
-            active: false
-          });
-    $( "#accordion_scotland" ).accordion({
-            heightStyle: "content",
-            collapsible: true,
-            active: false
-          });
-    $( "#accordion_sweden" ).accordion({
-            heightStyle: "content",
-            collapsible: true,
-            active: false
-          });
-    $( "#accordion_finland" ).accordion({
-            heightStyle: "content",
-            collapsible: true,
-            active: false
-          });
-    $( "#accordion_slovakia" ).accordion({
-            heightStyle: "content",
-            collapsible: true,
-            active: false
-          });
-    $( "#accordion_voting_members" ).accordion({
-            heightStyle: "content",
-            collapsible: true,
-            active: false
-          });
-    $( "#accordion_non_voting_members" ).accordion({
-            heightStyle: "content",
-            collapsible: true,
-            active: false
-          });
-        });
-  </script>
-  <!-- END: Institution Accordion Setup -->
-
 <?php wp_head(); ?>
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Bootstrap -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css?family=Asap:400,700" rel="stylesheet">
+<!-- Favicon -->
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<!-- Institution Accordion Setup -->
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<!-- Linkable TR -->
+<script type="text/javascript">
+  function DoNav(url)
+  {
+     document.location.href = url;
+  }
+</script>
+<script>
+      $(function() {
+        $( "#accordion_usa" ).accordion({
+          heightStyle: "content",
+          collapsible: true,
+          active: false
+        });
+  $( "#accordion_canada" ).accordion({
+          heightStyle: "content",
+          collapsible: true,
+          active: false
+        });
+  $( "#accordion_uk" ).accordion({
+          heightStyle: "content",
+          collapsible: true,
+          active: false
+        });
+  $( "#accordion_australia" ).accordion({
+          heightStyle: "content",
+          collapsible: true,
+          active: false
+        });
+  $( "#accordion_ireland" ).accordion({
+          heightStyle: "content",
+          collapsible: true,
+          active: false
+        });
+  $( "#accordion_france" ).accordion({
+          heightStyle: "content",
+          collapsible: true,
+          active: false
+        });
+  $( "#accordion_turkey" ).accordion({
+          heightStyle: "content",
+          collapsible: true,
+          active: false
+        });
+  $( "#accordion_singapore" ).accordion({
+          heightStyle: "content",
+          collapsible: true,
+          active: false
+        });
+  $( "#accordion_china" ).accordion({
+          heightStyle: "content",
+          collapsible: true,
+          active: false
+        });
+  $( "#accordion_japan" ).accordion({
+          heightStyle: "content",
+          collapsible: true,
+          active: false
+        });
+  $( "#accordion_guatemala" ).accordion({
+          heightStyle: "content",
+          collapsible: true,
+          active: false
+        });
+  $( "#accordion_mexico" ).accordion({
+          heightStyle: "content",
+          collapsible: true,
+          active: false
+        });
+  $( "#accordion_venezuela" ).accordion({
+          heightStyle: "content",
+          collapsible: true,
+          active: false
+        });
+  $( "#accordion_brazil" ).accordion({
+          heightStyle: "content",
+          collapsible: true,
+          active: false
+        });
+  $( "#accordion_scotland" ).accordion({
+          heightStyle: "content",
+          collapsible: true,
+          active: false
+        });
+  $( "#accordion_sweden" ).accordion({
+          heightStyle: "content",
+          collapsible: true,
+          active: false
+        });
+  $( "#accordion_finland" ).accordion({
+          heightStyle: "content",
+          collapsible: true,
+          active: false
+        });
+  $( "#accordion_slovakia" ).accordion({
+          heightStyle: "content",
+          collapsible: true,
+          active: false
+        });
+  $( "#accordion_voting_members" ).accordion({
+          heightStyle: "content",
+          collapsible: true,
+          active: false
+        });
+  $( "#accordion_non_voting_members" ).accordion({
+          heightStyle: "content",
+          collapsible: true,
+          active: false
+        });
+      });
+</script>
+<!-- END: Institution Accordion Setup -->
+
 </head>
 <body <?php body_class(); ?>>
 
