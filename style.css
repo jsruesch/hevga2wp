@@ -964,6 +964,47 @@ table tr {
 /* END: Institution Accordion */
 /**
  * =========================================
+ * UM Overrides
+ * =========================================
+ */
+.um,
+.um-row {
+  margin-bottom: 0px !important; }
+
+.um-profile .um-profile-body {
+  padding-bottom: 0px !important; }
+
+.um-header.no-cover {
+  background: #2AB572;
+  padding: 15px !important; }
+  .um-header.no-cover img {
+    max-height: 187px !important;
+    max-width: 187px !important; }
+  .um-header.no-cover .um-name a {
+    color: #fff !important; }
+
+.um-meta-text {
+  font-family: 'Asap', sans-serif !important;
+  font-size: 18px !important;
+  color: #111111 !important;
+  margin-top: 0 !important; }
+
+.um-header {
+  border-bottom: 0 !important; }
+
+.um-profile-nav {
+  background: #111111 !important; }
+
+.um-profile-nav-item a {
+  border-radius: 0 !important;
+  font-size: 18px !important; }
+
+.um-profile-photo a.um-profile-photo-img {
+  background: none !important; }
+
+/* END: UM Overrides */
+/**
+ * =========================================
  * Footer
  * =========================================
  */

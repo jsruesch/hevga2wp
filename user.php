@@ -13,7 +13,7 @@
   <div class="container-fluid mc">
     <div class="container">
       <!-- Bio -->
-      <div class="row bg-lgrey pad15 mar20-bot">
+      <div class="row bg-lgrey pad25 mar20-bot">
 
     		<?php if (have_posts()) : ?>
     				<?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>

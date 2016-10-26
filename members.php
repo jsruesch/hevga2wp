@@ -12,6 +12,9 @@
 -->
   <div class="container-fluid mc">
     <div class="container">
+      <div class="row pad15 bg-red">
+        <h2 class="text-white">Our Members</h2>
+      </div>
       <!-- Bio -->
       <div class="row bg-lgrey pad15 mar20-bot">
 
