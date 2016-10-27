@@ -103,7 +103,7 @@
             </div>
           </div>
         </a>
-        <a href="#" class="b-link">
+        <a href="/hevga2wp/usa-map" class="b-link">
           <div class="col-sm-6">
             <div class="full pad10 bg-yellow">
               <h3 class="text-white text-center">Industry <br/> Map</h3>

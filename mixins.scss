@@ -46,16 +46,16 @@
  * =========================================
  */
 
- .text-red{ color:    $red; }
- .text-green{ color:  $green; }
- .text-yellow{ color: $yellow; }
- .text-lblue{ color:  $lblue; }
- .text-dblue{ color:  $dblue; }
- .text-lgrey{ color:  $lgrey; }
- .text-mgrey{ color:  $mgrey; }
- .text-dgrey{ color:  $dgrey; }
- .text-black{ color:  $black; }
- .text-white{ color:  #fff; }
+ .text-red{ color:    $red !important; }
+ .text-green{ color:  $green !important; }
+ .text-yellow{ color: $yellow !important; }
+ .text-lblue{ color:  $lblue !important; }
+ .text-dblue{ color:  $dblue !important; }
+ .text-lgrey{ color:  $lgrey !important; }
+ .text-mgrey{ color:  $mgrey !important; }
+ .text-dgrey{ color:  $dgrey !important; }
+ .text-black{ color:  $black !important; }
+ .text-white{ color:  #fff !important; }
 
  .bg-red{ background:     $red; }
  .bg-green{ background:   $green; }

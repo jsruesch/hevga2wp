@@ -30,34 +30,34 @@ Version: 1
  * =========================================
  */
 .text-red {
-  color: #EF3F35; }
+  color: #EF3F35 !important; }
 
 .text-green {
-  color: #2AB572; }
+  color: #2AB572 !important; }
 
 .text-yellow {
-  color: #ECCB00; }
+  color: #ECCB00 !important; }
 
 .text-lblue {
-  color: #45B6E5; }
+  color: #45B6E5 !important; }
 
 .text-dblue {
-  color: #187198; }
+  color: #187198 !important; }
 
 .text-lgrey {
-  color: #f7f7f7; }
+  color: #f7f7f7 !important; }
 
 .text-mgrey {
-  color: #E6E6E6; }
+  color: #E6E6E6 !important; }
 
 .text-dgrey {
-  color: #D8D8D8; }
+  color: #D8D8D8 !important; }
 
 .text-black {
-  color: #111111; }
+  color: #111111 !important; }
 
 .text-white {
-  color: #fff; }
+  color: #fff !important; }
 
 .bg-red {
   background: #EF3F35; }
@@ -324,34 +324,34 @@ h1, h2, h3, h4, h5, p {
  * =========================================
  */
 .text-red {
-  color: #EF3F35; }
+  color: #EF3F35 !important; }
 
 .text-green {
-  color: #2AB572; }
+  color: #2AB572 !important; }
 
 .text-yellow {
-  color: #ECCB00; }
+  color: #ECCB00 !important; }
 
 .text-lblue {
-  color: #45B6E5; }
+  color: #45B6E5 !important; }
 
 .text-dblue {
-  color: #187198; }
+  color: #187198 !important; }
 
 .text-lgrey {
-  color: #f7f7f7; }
+  color: #f7f7f7 !important; }
 
 .text-mgrey {
-  color: #E6E6E6; }
+  color: #E6E6E6 !important; }
 
 .text-dgrey {
-  color: #D8D8D8; }
+  color: #D8D8D8 !important; }
 
 .text-black {
-  color: #111111; }
+  color: #111111 !important; }
 
 .text-white {
-  color: #fff; }
+  color: #fff !important; }
 
 .bg-red {
   background: #EF3F35; }
@@ -734,10 +734,29 @@ table tr {
 .navbar-inverse .navbar-nav > li > a {
   font-family: 'Asap', sans-serif;
   font-size: 15px !important;
-  color: #fff !important;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px; }
+
+.dropdown-toggle {
+  background: #ECCB00;
+  color: #111111 !important; }
+  .dropdown-toggle:hover {
+    background: #ECCB00 !important;
+    color: #111111 !important; }
+
+.navbar-inverse .navbar-nav > .open > a {
+  background: #ECCB00 !important;
+  color: #111111 !important; }
+
+.dropdown-menu {
+  background: #111111 !important; }
+
+.dropdown-menu > li > a {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important; }
+  .dropdown-menu > li > a:hover {
+    background: #333 !important; }
 
 /* END: Navigation */
 /**
@@ -1002,7 +1021,61 @@ table tr {
 .um-profile-photo a.um-profile-photo-img {
   background: none !important; }
 
+.um-field-label label {
+  font-size: 18px;
+  font-family: 'Asap', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700 !important; }
+
+.um-field-value {
+  font-size: 18px;
+  font-family: 'Asap', sans-serif; }
+
+.um-col-alt {
+  margin: 15px 0 0 0 !important; }
+
+input[type=submit].um-button,
+input[type=submit].um-button:focus,
+.um-search .um-search-submit .um-button {
+  border-radius: 0 !important;
+  background: #45B6E5 !important;
+  border: 0 !important;
+  color: #fff !important;
+  font-family: 'Asap', sans-serif !important;
+  font-size: 18px !important;
+  text-transform: uppercase !important;
+  font-weight: 700 !important; }
+
 /* END: UM Overrides */
+/**
+ * =========================================
+ * Ninja Forms
+ * =========================================
+ */
+.ninja-forms-field {
+  border: 2px solid #ddd !important;
+  padding: 0 12px !important;
+  font-size: 15px !important;
+  line-height: 40px; }
+
+input[type="button"].nf-element {
+  background: #45B6E5;
+  border: 0 !important;
+  color: #fff;
+  font-family: 'Asap', sans-serif;
+  font-size: 18px !important;
+  text-transform: uppercase;
+  font-weight: 700; }
+
+.nf-field-container {
+  margin-bottom: 0 !important; }
+
+.nf-field-label label {
+  font-family: 'Asap', sans-serif;
+  font-size: 18px !important;
+  font-weight: 300 !important; }
+
+/* END: Ninja Forms */
 /**
  * =========================================
  * Footer

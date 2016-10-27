@@ -183,13 +183,22 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="/hevga2wp/wp-content/themes/hevga/about">About</a></li>
-              <li><a href="/hevga2wp/wp-content/themes/hevga/members">Members</a></li>
-              <li><a href="reports.php">Reports</a></li>
-              <li><a href="news.php">News</a></li>
-              <li><a href="#">DC Meeting</a></li>
-              <li><a href="#">Contact</a></li>
-              <li class="bg-yellow"><a href="#"><span  class="text-black">Join Us</span></a></li>
+              <li><a href="/hevga2wp/about" class="text-white">About</a></li>
+              <li><a href="/hevga2wp/members" class="text-white">Members</a></li>
+              <li><a href="/hevga2wp/reports" class="text-white">Reports</a></li>
+              <li><a href="/hevga2wp/news" class="text-white">News</a></li>
+              <li><a href="#" class="text-white">DC Meeting</a></li>
+              <li><a href="/hevga2wp/contact" class="text-white">Contact</a></li>
+              <!-- START: Teams -->
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Join Us <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                      <li><a href="/hevga2wp/login"><span class="text-white"><h5>Login</h5></span></a></li>
+                      <li><a href="/hevga2wp/register"><span class="text-white"><h5>Register</h5></span></a></li>
+                      <!--<li role="separator" class="divider"></li>-->
+                  </ul>
+              </li>
+              <!-- END: Teams -->
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container -->

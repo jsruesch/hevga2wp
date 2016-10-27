@@ -119,12 +119,31 @@ table tr{ border-bottom: 1px solid $dgrey; }
 .navbar-inverse .navbar-nav>li>a{
   font-family: 'Asap', sans-serif;
   font-size: 15px !important;
-  color: #fff !important;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
 }
+.dropdown-toggle{
+  background: $yellow;
+  color: $black !important;
 
+  &:hover{
+    background: $yellow !important;
+    color: $black !important;
+  }
+}
+.navbar-inverse .navbar-nav>.open>a{
+  background: $yellow !important;
+  color: $black !important;
+}
+.dropdown-menu{ background: $black !important; }
+.dropdown-menu>li>a{
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  &:hover{
+      background: #333 !important;
+  }
+}
  /* END: Navigation */
 
 
@@ -275,8 +294,64 @@ table tr{ border-bottom: 1px solid $dgrey; }
 .um-profile-nav{ background: $black !important; }
 .um-profile-nav-item a{ border-radius: 0 !important; font-size: 18px !important; }
 .um-profile-photo a.um-profile-photo-img{ background: none !important; }
+.um-field-label label{
+  font-size: 18px;
+  font-family: 'Asap', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700 !important;
+}
+.um-field-value{
+  font-size: 18px;
+  font-family: 'Asap', sans-serif;
+}
+
+.um-col-alt{ margin: 15px 0 0 0 !important; }
+
+input[type=submit].um-button,
+input[type=submit].um-button:focus,
+.um-search .um-search-submit .um-button{
+  border-radius: 0 !important;
+  background: $lblue !important;
+  border: 0 !important;
+  color: #fff !important;
+  font-family: 'Asap', sans-serif !important;
+  font-size: 18px !important;
+  text-transform: uppercase !important;
+  font-weight: 700 !important;
+}
 
   /* END: UM Overrides */
+
+/**
+ * =========================================
+ * Ninja Forms
+ * =========================================
+ */
+
+.ninja-forms-field{
+  border: 2px solid #ddd !important;
+  padding: 0 12px !important;
+  font-size: 15px !important;
+  line-height: 40px;
+}
+input[type="button"].nf-element{
+  background: $lblue;
+  border: 0 !important;
+  color: #fff;
+  font-family: 'Asap', sans-serif;
+  font-size: 18px !important;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.nf-field-container{ margin-bottom: 0 !important; }
+.nf-field-label label{
+  font-family: 'Asap', sans-serif;
+  font-size: 18px !important;
+  font-weight: 300 !important;
+}
+
+/* END: Ninja Forms */
 
 
 /**

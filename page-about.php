@@ -44,61 +44,71 @@
             </div>
           </a><!-- /Constance -->
           <!-- Tracy -->
-          <div class="col-sm-6 col-md-4 pad20 ec-profile">
-            <div class="row">
-              <img src="/hevga2wp/wp-content/themes/hevga/img/portraits/portrait_tracy.png" class="center-block"/>
+          <a href="/hevga2wp/bio-tracy/">
+            <div class="col-sm-6 col-md-4 pad20 ec-profile">
+              <div class="row">
+                <img src="/hevga2wp/wp-content/themes/hevga/img/portraits/portrait_tracy.png" class="center-block"/>
+              </div>
+              <div class="row mar15-top">
+                <h4 class="text-dblue text-center">Tracy Fullerton</h4>
+                <p class="text-center"><strong>University Southern California</strong></p>
+                <p class="text-center">Vice President</p>
+              </div>
             </div>
-            <div class="row mar15-top">
-              <h4 class="text-dblue text-center">Tracy Fullerton</h4>
-              <p class="text-center"><strong>University Southern California</strong></p>
-              <p class="text-center">Vice President</p>
-            </div>
-          </div><!-- /Tracy -->
+          </a><!-- /Tracy -->
           <!-- Andrew -->
-          <div class="col-sm-6 col-md-4 pad20 ec-profile">
-            <div class="row">
-              <img src="/hevga2wp/wp-content/themes/hevga/img/portraits/portrait_andrew.png" class="center-block"/>
+          <a href="/hevga2wp/bio-andrew/">
+            <div class="col-sm-6 col-md-4 pad20 ec-profile">
+              <div class="row">
+                <img src="/hevga2wp/wp-content/themes/hevga/img/portraits/portrait_andrew.png" class="center-block"/>
+              </div>
+              <div class="row mar15-top">
+                <h4 class="text-dblue text-center">Andrew Phelps</h4>
+                <p class="text-center"><strong>Rochester Institute of Technology</strong></p>
+                <p class="text-center">Treasurer</p>
+              </div>
             </div>
-            <div class="row mar15-top">
-              <h4 class="text-dblue text-center">Andrew Phelps</h4>
-              <p class="text-center"><strong>Rochester Institute of Technology</strong></p>
-              <p class="text-center">Treasurer</p>
-            </div>
-          </div><!-- /Andrew -->
+          </a><!-- /Andrew -->
           <!-- Drew -->
-          <div class="col-sm-6 col-md-4 pad20 ec-profile">
-            <div class="row">
-              <img src="/hevga2wp/wp-content/themes/hevga/img/portraits/portrait_drew.png" class="center-block"/>
+          <a href="/hevga2wp/bio-drew/">
+            <div class="col-sm-6 col-md-4 pad20 ec-profile">
+              <div class="row">
+                <img src="/hevga2wp/wp-content/themes/hevga/img/portraits/portrait_drew.png" class="center-block"/>
+              </div>
+              <div class="row mar15-top">
+                <h4 class="text-dblue text-center">Drew Davidson</h4>
+                <p class="text-center"><strong>Carnegie Mellow University</strong></p>
+                <p class="text-center">Secretary</p>
+              </div>
             </div>
-            <div class="row mar15-top">
-              <h4 class="text-dblue text-center">Drew Davidson</h4>
-              <p class="text-center"><strong>Carnegie Mellow University</strong></p>
-              <p class="text-center">Secretary</p>
-            </div>
-          </div><!-- /Drew -->
+          </a<!-- /Drew -->
           <!-- Katherine -->
-          <div class="col-sm-6 col-md-4 pad20 ec-profile">
-            <div class="row">
-              <img src="/hevga2wp/wp-content/themes/hevga/img/portraits/portrait_katherine.png" class="center-block"/>
+          <a href="/hevga2wp/bio-katherine/">
+            <div class="col-sm-6 col-md-4 pad20 ec-profile">
+              <div class="row">
+                <img src="/hevga2wp/wp-content/themes/hevga/img/portraits/portrait_katherine.png" class="center-block"/>
+              </div>
+              <div class="row mar15-top">
+                <h4 class="text-dblue text-center">Katherine Isbister</h4>
+                <p class="text-center"><strong>University of California-Santa Cruz</strong></p>
+                <p class="text-center">Communications & Outreach</p>
+              </div>
             </div>
-            <div class="row mar15-top">
-              <h4 class="text-dblue text-center">Katherine Isbister</h4>
-              <p class="text-center"><strong>University of California-Santa Cruz</strong></p>
-              <p class="text-center">Communications & Outreach</p>
-            </div>
-          </div><!-- /Katherine -->
+          </a><!-- /Katherine -->
           <!-- Jonathan -->
-          <div class="col-sm-6 col-md-4 pad20 ec-profile">
-            <div class="row">
-              <img src="/hevga2wp/wp-content/themes/hevga/img/portraits/portrait_jonathan.png" class="center-block"/>
+          <a href="/hevga2wp/bio-jonathan/">
+            <div class="col-sm-6 col-md-4 pad20 ec-profile">
+              <div class="row">
+                <img src="/hevga2wp/wp-content/themes/hevga/img/portraits/portrait_jonathan.png" class="center-block"/>
+              </div>
+              <div class="row mar15-top">
+                <h4 class="text-dblue text-center">Jonathan Elmergreen</h4>
+                <p class="text-center"><strong>University of Wisconsin-Madison</strong></p>
+                <p class="text-center">Interim Executive Director</p>
+              </div>
             </div>
-            <div class="row mar15-top">
-              <h4 class="text-dblue text-center">Jonathan Elmergreen</h4>
-              <p class="text-center"><strong>University of Wisconsin-Madison</strong></p>
-              <p class="text-center">Interim Executive Director</p>
-            </div>
-          </div><!-- /Jonathan -->
-        </div>
+          </a><!-- /Jonathan -->
+        </div><!-- /.row -->
       </div><!-- /Executive Committee -->
       <!-- Institutions -->
       <div class="row mar20-bot">

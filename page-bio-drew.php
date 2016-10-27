@@ -1,6 +1,6 @@
 <?php
 /*
- Template Name: Account
+ Template Name: Bio Drew
 */
 ?>
 
@@ -12,9 +12,21 @@
 -->
   <div class="container-fluid mc">
     <div class="container">
+      <!-- Constance -->
+      <div class="col-md-3 pad20 bg-green">
+        <div class="row">
+          <img src="/hevga2wp/wp-content/themes/hevga/img/portraits/portrait_drew.png" class="center-block"/>
+        </div>
+        <div class="row mar15-top">
+          <h3 class="text-white text-center">Drew Davidson</h3>
+          <p class="text-center"><strong>Carnegie Mellon University</strong></p>
+          <p class="text-center">Secretary</p>
+        </div>
+      </div><!-- /Constance -->
       <!-- Bio -->
-      <div class="row bg-lgrey pad15 mar20-bot">
+      <div class="col-md-9 bg-lgrey pad15 mar20-bot">
 
+        <?php query_posts('category_name=drew');?>
     		<?php if (have_posts()) : ?>
     				<?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
     				<?php /* If this is a category archive */ if (is_category()) { ?>

@@ -1,6 +1,6 @@
 <?php
 /*
- Template Name: Register
+ Template Name: Default
 */
 ?>
 
@@ -12,9 +12,6 @@
 -->
   <div class="container-fluid mc">
     <div class="container">
-      <!-- Bio -->
-      <div class="row bg-lgrey pad15 mar20-bot">
-
     		<?php if (have_posts()) : ?>
     				<?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
     				<?php /* If this is a category archive */ if (is_category()) { ?>
@@ -35,9 +32,12 @@
 
             <!-- The Content -->
     				<div <?php post_class() ?>>
-              <p>
+              <div class="row pad15 bg-red">
+                <h2 class="text-white"><?php the_title(); ?></h2>
+              </div>
+              <div class="row bg-lgrey pad15 mar20-bot">
                 <?php the_content(); ?>
-              </p>
+              </div>
             </div><!-- /The Content -->
             <?php endwhile; ?>
             <?php else : ?>

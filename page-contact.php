@@ -1,6 +1,6 @@
 <?php
 /*
- Template Name: Log In
+ Template Name: Contact
 */
 ?>
 
@@ -12,7 +12,9 @@
 -->
   <div class="container-fluid mc">
     <div class="container">
-      <!-- Bio -->
+      <div class="row pad15 bg-black">
+        <h2 class="text-white">Contact Us</h2>
+      </div>
       <div class="row bg-lgrey pad15 mar20-bot">
 
     		<?php if (have_posts()) : ?>
@@ -35,9 +37,9 @@
 
             <!-- The Content -->
     				<div <?php post_class() ?>>
-              <p>
+              <div class="col-sm-6 col-sm-offset-3">
                 <?php the_content(); ?>
-              </p>
+              </div>
             </div><!-- /The Content -->
             <?php endwhile; ?>
             <?php else : ?>
