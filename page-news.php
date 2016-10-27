@@ -42,7 +42,7 @@
 
                 <tr>
                   <td class="col-sm-3 pad10 bg-dblue"><h4 class="text-center text-white"><?php the_title(); ?></h4></td>
-                  <td class="col-sm-9 pad10 bg-lgrey"><p><?php the_content(); ?></p></td>
+                  <td class="col-sm-9 pad10 bg-white"><p><?php the_content(); ?></p></td>
                 </tr>
 
               </div>
