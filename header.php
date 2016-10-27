@@ -195,6 +195,9 @@
                   <ul class="dropdown-menu">
                       <li><a href="/hevga2wp/login"><span class="text-white"><h5>Login</h5></span></a></li>
                       <li><a href="/hevga2wp/register"><span class="text-white"><h5>Register</h5></span></a></li>
+                      <li><a href="/hevga2wp/membership" class="bg-yellow"><span class="text-white"><h5>Apply</h5></span></a></li>
+                      <li><a href="/hevga2wp/register" class="bg-lblue"><span class="text-white"><h5>Twitter</h5></span></a></li>
+                      <li><a href="/hevga2wp/register" class="bg-fbpurple"><span class="text-white"><h5>Facebook</h5></span></a></li>
                       <!--<li role="separator" class="divider"></li>-->
                   </ul>
               </li>

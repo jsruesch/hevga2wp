@@ -12,7 +12,7 @@
 -->
   <div class="container-fluid mc">
     <div class="container">
-      <div class="row pad15 bg-black">
+      <div class="row pad15 bg-red">
         <h2 class="text-white">Recent News and Events</h2>
       </div>
       <!-- Bio -->

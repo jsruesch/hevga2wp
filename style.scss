@@ -118,7 +118,7 @@ table tr{ border-bottom: 1px solid $dgrey; }
 .navbar-nav>li:hover { @include transition; background: $red; }
 .navbar-inverse .navbar-nav>li>a{
   font-family: 'Asap', sans-serif;
-  font-size: 15px !important;
+  font-size: 14px !important;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
@@ -136,7 +136,11 @@ table tr{ border-bottom: 1px solid $dgrey; }
   background: $yellow !important;
   color: $black !important;
 }
-.dropdown-menu{ background: $black !important; }
+.dropdown-menu{
+  background: $black !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
 .dropdown-menu>li>a{
   padding-top: 10px !important;
   padding-bottom: 10px !important;
@@ -144,6 +148,8 @@ table tr{ border-bottom: 1px solid $dgrey; }
       background: #333 !important;
   }
 }
+.nav>li>a{ padding: 15px 10px !important; }
+
  /* END: Navigation */
 
 
@@ -192,12 +198,13 @@ table tr{ border-bottom: 1px solid $dgrey; }
  * =========================================
  */
 
-.carousel-inner .item img{
-  min-height: 325px;
-  max-height: 350px;
-  background-position: center;
-}
+
 .carousel-control:hover{ background: none !important; }
+.carousel-caption{ padding-bottom: 0 !important; }
+.cslide{ min-height: 325px; max-height: 350px; width: 2000px; }
+.slide-bg-01{ background: url(img/slides/slide-01.png) 50% 0%; }
+.slide-bg-02{ background: url(img/slides/slide-02.png) 50% 0%; }
+.slide-bg-03{ background: url(img/slides/slide-03.png) 50% 0%; }
 
  /* END: Carousel */
 

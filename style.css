@@ -59,6 +59,9 @@ Version: 1
 .text-white {
   color: #fff !important; }
 
+.text-fbpurple {
+  color: #3B5998 !important; }
+
 .bg-red {
   background: #EF3F35; }
 
@@ -85,6 +88,12 @@ Version: 1
 
 .bg-black {
   background: #111111; }
+
+.bg-white {
+  background: #fff; }
+
+.bg-fbpurple {
+  background: #3B5998; }
 
 /* Bootstrap Overrides */
 .container,
@@ -353,6 +362,9 @@ h1, h2, h3, h4, h5, p {
 .text-white {
   color: #fff !important; }
 
+.text-fbpurple {
+  color: #3B5998 !important; }
+
 .bg-red {
   background: #EF3F35; }
 
@@ -379,6 +391,12 @@ h1, h2, h3, h4, h5, p {
 
 .bg-black {
   background: #111111; }
+
+.bg-white {
+  background: #fff; }
+
+.bg-fbpurple {
+  background: #3B5998; }
 
 /* Bootstrap Overrides */
 .container,
@@ -597,6 +615,9 @@ h1, h2, h3, h4, h5, p {
 /* END: Setup Classes */
 /* END: Imports */
 @media screen and (max-width: 768px) {
+  body {
+    padding-bottom: 205px !important; }
+
   .navbar-inverse .container {
     width: 100% !important;
     margin-left: 0 !important;
@@ -607,6 +628,9 @@ h1, h2, h3, h4, h5, p {
     padding-left: 10px !important;
     width: 85% !important; } }
 @media (max-device-width: 768px) {
+  body {
+    padding-bottom: 205px !important; }
+
   .navbar-inverse .container {
     width: 100% !important;
     margin-left: 0 !important;
@@ -733,7 +757,7 @@ table tr {
 
 .navbar-inverse .navbar-nav > li > a {
   font-family: 'Asap', sans-serif;
-  font-size: 15px !important;
+  font-size: 14px !important;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px; }
@@ -750,13 +774,18 @@ table tr {
   color: #111111 !important; }
 
 .dropdown-menu {
-  background: #111111 !important; }
+  background: #111111 !important;
+  padding: 0 !important;
+  border: 0 !important; }
 
 .dropdown-menu > li > a {
   padding-top: 10px !important;
   padding-bottom: 10px !important; }
   .dropdown-menu > li > a:hover {
     background: #333 !important; }
+
+.nav > li > a {
+  padding: 15px 10px !important; }
 
 /* END: Navigation */
 /**
@@ -804,13 +833,25 @@ table tr {
  * Carousel
  * =========================================
  */
-.carousel-inner .item img {
-  min-height: 325px;
-  max-height: 350px;
-  background-position: center; }
-
 .carousel-control:hover {
   background: none !important; }
+
+.carousel-caption {
+  padding-bottom: 0 !important; }
+
+.cslide {
+  min-height: 325px;
+  max-height: 350px;
+  width: 2000px; }
+
+.slide-bg-01 {
+  background: url(img/slides/slide-01.png) 50% 0%; }
+
+.slide-bg-02 {
+  background: url(img/slides/slide-02.png) 50% 0%; }
+
+.slide-bg-03 {
+  background: url(img/slides/slide-03.png) 50% 0%; }
 
 /* END: Carousel */
 /**

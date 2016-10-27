@@ -27,15 +27,17 @@
  * =========================================
  */
 
- $red:    #EF3F35;
- $green:  #2AB572;
- $yellow: #ECCB00;
- $lblue:  #45B6E5;
- $dblue:  #187198;
- $lgrey:  #f7f7f7;
- $mgrey:  #E6E6E6;
- $dgrey:  #D8D8D8;
- $black:  #111111;
+ $red:      #EF3F35;
+ $green:    #2AB572;
+ $yellow:   #ECCB00;
+ $lblue:    #45B6E5;
+ $dblue:    #187198;
+ $lgrey:    #f7f7f7;
+ $mgrey:    #E6E6E6;
+ $dgrey:    #D8D8D8;
+ $black:    #111111;
+ $fbpurple: #3B5998;
+ $white:    #fff;
 
  /* END Variables */
 
@@ -46,26 +48,29 @@
  * =========================================
  */
 
- .text-red{ color:    $red !important; }
- .text-green{ color:  $green !important; }
- .text-yellow{ color: $yellow !important; }
- .text-lblue{ color:  $lblue !important; }
- .text-dblue{ color:  $dblue !important; }
- .text-lgrey{ color:  $lgrey !important; }
- .text-mgrey{ color:  $mgrey !important; }
- .text-dgrey{ color:  $dgrey !important; }
- .text-black{ color:  $black !important; }
- .text-white{ color:  #fff !important; }
+ .text-red{ color:      $red !important; }
+ .text-green{ color:    $green !important; }
+ .text-yellow{ color:   $yellow !important; }
+ .text-lblue{ color:    $lblue !important; }
+ .text-dblue{ color:    $dblue !important; }
+ .text-lgrey{ color:    $lgrey !important; }
+ .text-mgrey{ color:    $mgrey !important; }
+ .text-dgrey{ color:    $dgrey !important; }
+ .text-black{ color:    $black !important; }
+ .text-white{ color:    #fff !important; }
+ .text-fbpurple{ color: $fbpurple !important; }
 
- .bg-red{ background:     $red; }
- .bg-green{ background:   $green; }
- .bg-yellow{ background:  $yellow; }
- .bg-lblue{ background:   $lblue; }
- .bg-dblue{ background:   $dblue; }
- .bg-lgrey{ background:   $lgrey; }
- .bg-mgrey{ background:   $mgrey; }
- .bg-dgrey{ background:   $dgrey; }
- .bg-black{ background:   $black; }
+ .bg-red{ background:       $red; }
+ .bg-green{ background:     $green; }
+ .bg-yellow{ background:    $yellow; }
+ .bg-lblue{ background:     $lblue; }
+ .bg-dblue{ background:     $dblue; }
+ .bg-lgrey{ background:     $lgrey; }
+ .bg-mgrey{ background:     $mgrey; }
+ .bg-dgrey{ background:     $dgrey; }
+ .bg-black{ background:     $black; }
+ .bg-white{ background:     $white; }
+ .bg-fbpurple{ background:  $fbpurple; }
 
  /* Bootstrap Overrides */
  .container,

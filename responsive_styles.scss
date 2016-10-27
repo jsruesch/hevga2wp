@@ -10,6 +10,8 @@
 
 @media screen and (max-width:768px){
 
+  body{ padding-bottom: 205px !important; }
+
   .navbar-inverse .container{
     width: 100% !important;
     margin-left: 0 !important;
@@ -24,6 +26,8 @@
 
 }
 @media (max-device-width:768px){
+
+  body{ padding-bottom: 205px !important; }
 
   .navbar-inverse .container{
     width: 100% !important;
