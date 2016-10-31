@@ -41,6 +41,8 @@
 <link href="https://fonts.googleapis.com/css?family=Asap:400,700" rel="stylesheet">
 <!-- Favicon -->
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<!-- FontAwesome -->
+<script src="https://use.fontawesome.com/0393b24120.js"></script>
 <!-- Institution Accordion Setup -->
 <script src="//code.jquery.com/jquery-1.10.2.js"></script>
 <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
@@ -196,8 +198,8 @@
                       <li><a href="/hevga2wp/login"><span class="text-white"><h5>Login</h5></span></a></li>
                       <li><a href="/hevga2wp/register"><span class="text-white"><h5>Register</h5></span></a></li>
                       <li><a href="/hevga2wp/membership" class="bg-yellow"><span class="text-white"><h5>Apply</h5></span></a></li>
-                      <li><a href="/hevga2wp/register" class="bg-lblue"><span class="text-white"><h5>Twitter</h5></span></a></li>
-                      <li><a href="/hevga2wp/register" class="bg-fbpurple"><span class="text-white"><h5>Facebook</h5></span></a></li>
+                      <li><a href="https://twitter.com/HigherEdGames" target="_blank" class="bg-lblue"><span class="text-white"><h5><i class="fa fa-twitter-square text-white" aria-hidden="true"></i> Twitter</h5></span></a></li>
+                      <li><a href="https://www.facebook.com/hevga/?fref=ts" target="_blank" class="bg-fbpurple"><span class="text-white"><h5><i class="fa fa-facebook-square text-white" aria-hidden="true"></i> Facebook</h5></span></a></li>
                       <!--<li role="separator" class="divider"></li>-->
                   </ul>
               </li>

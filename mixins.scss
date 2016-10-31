@@ -29,6 +29,7 @@
 
  $red:      #EF3F35;
  $green:    #2AB572;
+ $dgreen:   #058C4B;
  $yellow:   #ECCB00;
  $lblue:    #45B6E5;
  $dblue:    #187198;
@@ -50,6 +51,7 @@
 
  .text-red{ color:      $red !important; }
  .text-green{ color:    $green !important; }
+ .text-dgreen{ color:   $dgreen !important; }
  .text-yellow{ color:   $yellow !important; }
  .text-lblue{ color:    $lblue !important; }
  .text-dblue{ color:    $dblue !important; }
@@ -62,6 +64,7 @@
 
  .bg-red{ background:       $red; }
  .bg-green{ background:     $green; }
+ .bg-dgreen{ background:    $dgreen; }
  .bg-yellow{ background:    $yellow; }
  .bg-lblue{ background:     $lblue; }
  .bg-dblue{ background:     $dblue; }
@@ -78,7 +81,9 @@
  .col-sm-8,
  .col-sm-7,
  .col-sm-6,
- .col-sm-4{
+ .col-sm-4,
+ .col-sm-3,
+ .col-md-3{
      padding-top:    0px !important;
      padding-right:  0px !important;
      padding-bottom: 0px !important;

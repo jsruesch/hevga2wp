@@ -35,6 +35,9 @@ Version: 1
 .text-green {
   color: #2AB572 !important; }
 
+.text-dgreen {
+  color: #058C4B !important; }
+
 .text-yellow {
   color: #ECCB00 !important; }
 
@@ -67,6 +70,9 @@ Version: 1
 
 .bg-green {
   background: #2AB572; }
+
+.bg-dgreen {
+  background: #058C4B; }
 
 .bg-yellow {
   background: #ECCB00; }
@@ -101,7 +107,9 @@ Version: 1
 .col-sm-8,
 .col-sm-7,
 .col-sm-6,
-.col-sm-4 {
+.col-sm-4,
+.col-sm-3,
+.col-md-3 {
   padding-top: 0px !important;
   padding-right: 0px !important;
   padding-bottom: 0px !important;
@@ -338,6 +346,9 @@ h1, h2, h3, h4, h5, p {
 .text-green {
   color: #2AB572 !important; }
 
+.text-dgreen {
+  color: #058C4B !important; }
+
 .text-yellow {
   color: #ECCB00 !important; }
 
@@ -370,6 +381,9 @@ h1, h2, h3, h4, h5, p {
 
 .bg-green {
   background: #2AB572; }
+
+.bg-dgreen {
+  background: #058C4B; }
 
 .bg-yellow {
   background: #ECCB00; }
@@ -404,7 +418,9 @@ h1, h2, h3, h4, h5, p {
 .col-sm-8,
 .col-sm-7,
 .col-sm-6,
-.col-sm-4 {
+.col-sm-4,
+.col-sm-3,
+.col-md-3 {
   padding-top: 0px !important;
   padding-right: 0px !important;
   padding-bottom: 0px !important;
@@ -655,8 +671,8 @@ h1, h2, h3, h4, h5, p {
 
 html {
   overflow: scroll;
-  min-height: 100%;
-  position: relative; }
+  position: relative;
+  min-height: 100%; }
 
 body {
   font-family: 'Asap', sans-serif;
@@ -845,13 +861,16 @@ table tr {
   width: 2000px; }
 
 .slide-bg-01 {
-  background: url(img/slides/slide-01.png) 50% 0%; }
+  background: url(img/slides/slide-01.png) 50% 0%;
+  margin: 0 auto; }
 
 .slide-bg-02 {
-  background: url(img/slides/slide-02.png) 50% 0%; }
+  background: url(img/slides/slide-02.png) 50% 0%;
+  margin: 0 auto; }
 
 .slide-bg-03 {
-  background: url(img/slides/slide-03.png) 50% 0%; }
+  background: url(img/slides/slide-03.png) 50% 0%;
+  margin: 0 auto; }
 
 /* END: Carousel */
 /**
@@ -1129,6 +1148,8 @@ input[type="button"].nf-element {
 
 .footer p, .footer li, .footer a {
   font-size: 15px; }
+.footer i:hover {
+  color: #fff !important; }
 
 .footer ul li a {
   color: #666; }
