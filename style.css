@@ -849,6 +849,9 @@ table tr {
  * Carousel
  * =========================================
  */
+.carousel .item {
+  width: 100%; }
+
 .carousel-control:hover {
   background: none !important; }
 
@@ -857,11 +860,10 @@ table tr {
 
 .cslide {
   min-height: 325px;
-  max-height: 350px;
-  width: 2000px; }
+  max-height: 350px; }
 
 .slide-bg-01 {
-  background: url(img/slides/slide-01.png) 50% 0%;
+  background: url(img/slides/slide-03.png) 50% 0%;
   margin: 0 auto; }
 
 .slide-bg-02 {
@@ -869,7 +871,7 @@ table tr {
   margin: 0 auto; }
 
 .slide-bg-03 {
-  background: url(img/slides/slide-03.png) 50% 0%;
+  background: url(img/slides/slide-01.png) 50% 0%;
   margin: 0 auto; }
 
 /* END: Carousel */
