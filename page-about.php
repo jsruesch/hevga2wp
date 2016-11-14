@@ -104,7 +104,7 @@
               <div class="row mar15-top">
                 <h4 class="text-dblue text-center">Jonathan Elmergreen</h4>
                 <p class="text-center"><strong>University of Wisconsin-Madison</strong></p>
-                <p class="text-center">Interim Executive Director</p>
+                <p class="text-center">Executive Director</p>
               </div>
             </div>
           </a><!-- /Jonathan -->
