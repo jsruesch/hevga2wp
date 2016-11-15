@@ -189,7 +189,7 @@
               <li><a href="/hevga2wp/members" class="text-white">Members</a></li>
               <li><a href="/hevga2wp/reports" class="text-white">Reports</a></li>
               <li><a href="/hevga2wp/news" class="text-white">News</a></li>
-              <li><a href="#" class="text-white">DC Meeting</a></li>
+              <!-- <li><a href="#" class="text-white">DC Meeting</a></li> -->
               <li><a href="/hevga2wp/contact" class="text-white">Contact</a></li>
               <!-- START: Teams -->
               <li class="dropdown">
