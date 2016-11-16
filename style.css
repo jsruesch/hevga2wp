@@ -843,6 +843,11 @@ table tr {
   display: block !important; }
 
 /* Make UM Dropdowns Visible */
+.featured-image-excerpt img {
+  width: 100%;
+  float: left;
+  height: auto !important; }
+
 /* END: Elements */
 /**
  * =========================================

@@ -13,15 +13,14 @@
   <div class="container-fluid mc">
     <div class="container">
       <div class="row">
-
         <!-- Featured -->
         <div class="col-sm-9">
           <!-- Top Story -->
           <div class="row pad15 bg-red">
             <h2 class="text-white">Featured</h2>
           </div>
-          <div class="row bg-lgrey pad15 mar20-bot">
-            <?php query_posts('category_name=news-article&posts_per_page=1');?>
+          <div class="row mar20-bot">
+            <?php query_posts('category_name=featured&posts_per_page=1');?>
         		<?php if (have_posts()) : ?>
         				<?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
         				<?php /* If this is a category archive */ if (is_category()) { ?>
@@ -41,11 +40,20 @@
         				<?php while (have_posts()) : the_post(); ?>
                   <!-- The Content -->
           				<div <?php post_class() ?>>
-
-                    <h4><?php the_title(); ?></h4>
-                    <p>
-                      <?php the_excerpt(); ?>
-                    </p>
+                    <div class="row featured-image-excerpt">
+                      <a href="<?php the_permalink() ?>">
+                      <?php
+                        if ( has_post_thumbnail() ) {
+                        	the_post_thumbnail();
+                        }?>
+                      </a>
+                    </div>
+                    <div class="row pad15 bg-lgrey">
+                      <a href="<?php the_permalink() ?>"><h3 class="text-dblue"><?php the_title(); ?></h3></a>
+                      <p>
+                        <?php the_content( $more_link_text , $strip_teaser ); ?>
+                      </p>
+                    </div>
 
                   </div><!-- /The Content -->
                 <?php endwhile; ?>
@@ -53,7 +61,6 @@
                   <h2>Nothing found</h2>
             <?php endif; ?>
           </div><!-- Top Story -->
-
           <!-- Latest Press Releases -->
           <div class="row pad15 bg-yellow">
             <h4 class="text-black">Latest Press Releases</h4>
@@ -80,7 +87,7 @@
                   <!-- The Content -->
           				<div <?php post_class() ?>>
                     <div class="col-sm-6">
-                      <h4><?php the_title(); ?></h4>
+                      <a href="<?php the_permalink() ?>"><h3 class="text-dblue"><h4><?php the_title(); ?></h4></a>
                       <p>
                         <?php the_excerpt(); ?>
                       </p>
@@ -91,7 +98,6 @@
                   <h2>Nothing found</h2>
             <?php endif; ?>
           </div><!-- Latest Press Releases -->
-
           <!-- Latest News Goodies -->
           <div class="row pad15 bg-green">
             <h4 class="text-white">Latest News</h4>
@@ -99,9 +105,7 @@
           <div class="row bg-lgrey pad15 mar20-bot">
             <table class="col-sm-12">
             <?php query_posts('post_type=news&posts_per_page=5');?>
-
               <?php if (have_posts()) : ?>
-
                   <?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
                   <?php /* If this is a category archive */ if (is_category()) { ?>
                   <?php /* If this is a tag archive */ } elseif( is_tag() ) { ?>
@@ -117,18 +121,13 @@
                   <?php /* If this is a paged archive */ } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
                     <h2 class="pagetitle">Blog Archives</h2>
                   <?php } ?>
-
                   <?php while (have_posts()) : the_post(); ?>
-
                   <div <?php post_class() ?>>
-
                     <tr>
                       <td class="col-sm-3 pad10 bg-dblue"><h4 class="text-center text-white"><?php the_title(); ?></h4></td>
                       <td class="col-sm-9 pad10 bg-lgrey"><p><?php the_content(); ?></p></td>
                     </tr>
-
                   </div>
-
                   <?php endwhile; ?>
                 <?php else : ?>
                   <h2>Nothing found</h2>
@@ -136,8 +135,9 @@
               </table>
           </div><!-- Latest News Goodies -->
         </div><!-- Featured -->
-
-        <!-- Sidebar -->
+      <!--
+        Sidebar
+      -->
         <div class="col-sm-3">
           <!-- Section Buttons -->
           <div class="row pad15 bg-dblue">
@@ -170,10 +170,9 @@
           </div><!-- Latest Tweets -->
         </div>
         <!-- Sidebar -->
-
       </div><!-- /.row -->
-    </div>
-  </div>
+    </div><!-- /.container -->
+  </div><!-- /.container-fluid -->
 <!-- END: Main Content -->
 
 <?php get_footer(); ?>

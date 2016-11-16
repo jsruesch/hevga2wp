@@ -1,36 +1,36 @@
 <?php get_header(); ?>
-	
-	<div class="main_post_content_container">
+
+<!--
+  BEGIN: Main Content
+-->
+  <div class="container-fluid">
+    <div class="container">
 
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-	
-			<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
-				
-				<h2><?php the_title(); ?></h2>
-				
-				<?php include (TEMPLATEPATH . '/inc/meta.php' ); ?>
-	
-				<div class="entry">
-					
+			<!-- Featured Image -->
+			<div class="row featured-image-excerpt">
+				<?php echo get_the_post_thumbnail( $page->ID, 'post_thumbnail' ); ?>
+			</div><!-- Featured Image -->
+
+			<div class="row" <?php post_class() ?> id="post-<?php the_ID(); ?>">
+				<!-- Title and Meta -->
+				<div class="row pad15 bg-lblue">
+					<h2 class="text-white"><?php the_title(); ?></h2>
+				</div><!-- Title and Meta -->
+				<!-- Entry -->
+				<div class="entry row pad15 bg-lgrey">
 					<?php the_content(); ?>
-	
 					<?php wp_link_pages(array('before' => 'Pages: ', 'next_or_number' => 'number')); ?>
-					
 					<?php the_tags( 'Tags: ', ', ', ''); ?>
-	
-				</div>
-				
-				<?php edit_post_link('Edit this entry','','.'); ?>
-				
+				</div><!-- Entry -->
+				<!-- Edit This Entry -->
+				<div class="row pad15-top">
+					<?php edit_post_link('Edit this entry','','.'); ?>
+				</div><!-- Edit This Entry -->
 			</div>
-	
-		<?php comments_template(); ?>
-	
 		<?php endwhile; endif; ?>
-	
-	</div>
-	
-<?php get_sidebar(); ?>
+
+	</div><!-- /.container -->
+</div><!-- /.container-fluid -->
 
 <?php get_footer(); ?>
-
