@@ -14,7 +14,7 @@
     <div class="container">
       <div class="row">
         <!-- Featured -->
-        <div class="col-sm-9">
+        <div class="col-sm-9 pad15-right">
           <!-- Top Story -->
           <div class="row pad15 bg-red">
             <h2 class="text-white">Featured</h2>
