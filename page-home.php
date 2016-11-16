@@ -120,7 +120,7 @@
           <div class="row">
             <table class="col-sm-12">
 
-              <?php query_posts('post_type=news&posts_per_page=5');?>
+              <?php query_posts('post_type=news_link&posts_per_page=5');?>
 
     						<?php if (have_posts()) : ?>
 
