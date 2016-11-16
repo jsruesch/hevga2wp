@@ -139,19 +139,19 @@
       -->
         <div class="col-sm-3">
           <!-- Section Buttons -->
-          <a href="#">
+          <a href="../article-writeups-archive-page">
             <div class="row pad15 bg-dblue b-link">
-              <h4 class="text-center text-white">News</h4>
+              <h4 class="text-center text-white">Featured Articles</h4>
             </div>
           </a>
-          <a href="#">
+          <a href="../press-releases-archive-page">
             <div class="row pad15 bg-lblue b-link">
               <h4 class="text-center text-white">Press Releases</h4>
             </div>
           </a>
-          <a href="#">
+          <a href="../news-links-archive-page">
             <div class="row pad15 bg-green mar20-bot b-link">
-              <h4 class="text-center text-white">Newsletters</h4>
+              <h4 class="text-center text-white">News Links</h4>
             </div>
           </a><!-- Section Buttons -->
           <!-- Media Contact -->
