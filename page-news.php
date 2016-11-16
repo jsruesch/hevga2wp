@@ -20,7 +20,7 @@
             <h2 class="text-white">Featured</h2>
           </div>
           <div class="row mar20-bot">
-            <?php query_posts('category_name=featured&posts_per_page=1');?>
+            <?php query_posts('post_type=article_writeups&posts_per_page=1');?>
         		<?php if (have_posts()) : ?>
         				<?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
         				<?php /* If this is a category archive */ if (is_category()) { ?>
@@ -65,7 +65,7 @@
             <h4 class="text-black">Latest Press Releases</h4>
           </div>
           <div class="row bg-lgrey pad15 mar20-bot">
-            <?php query_posts('category_name=press-releases&posts_per_page=2');?>
+            <?php query_posts('post_type=press_releases&posts_per_page=2');?>
         		<?php if (have_posts()) : ?>
         				<?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
         				<?php /* If this is a category archive */ if (is_category()) { ?>
@@ -103,7 +103,7 @@
           </div>
           <div class="row bg-lgrey pad15 mar20-bot">
             <table class="col-sm-12">
-            <?php query_posts('post_type=news&posts_per_page=5');?>
+            <?php query_posts('post_type=news_link&posts_per_page=5');?>
               <?php if (have_posts()) : ?>
                   <?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
                   <?php /* If this is a category archive */ if (is_category()) { ?>
@@ -159,6 +159,12 @@
             <h4 class="text-white">Media Contact</h4>
           </div>
           <div class="row bg-lgrey pad15 mar20-bot">
+            <p>
+              <strong>Firstname Lastname</strong><br/>
+              title<br/>
+              <a href="mailto:" target="_blank">email@email.com</a><br/>
+              555-555-555<br/>
+            </p>
           </div><!-- Media Contact -->
           <!-- Press Kit -->
           <div class="row pad15 bg-black">
