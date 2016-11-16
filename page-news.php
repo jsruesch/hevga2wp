@@ -49,12 +49,11 @@
                       </a>
                     </div>
                     <div class="row pad15 bg-lgrey">
-                      <a href="<?php the_permalink() ?>"><h3 class="text-dblue"><?php the_title(); ?></h3></a>
+                      <h3 class="text-dblue"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
                       <p>
                         <?php the_content( $more_link_text , $strip_teaser ); ?>
                       </p>
                     </div>
-
                   </div><!-- /The Content -->
                 <?php endwhile; ?>
                 <?php else : ?>
@@ -87,9 +86,9 @@
                   <!-- The Content -->
           				<div <?php post_class() ?>>
                     <div class="col-sm-6">
-                      <a href="<?php the_permalink() ?>"><h3 class="text-dblue"><h4><?php the_title(); ?></h4></a>
+                      <h4 class="text-dblue"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h4>
                       <p>
-                        <?php the_excerpt(); ?>
+                        <?php the_content( $more_link_text , $strip_teaser ); ?>
                       </p>
                     </div>
                   </div><!-- /The Content -->

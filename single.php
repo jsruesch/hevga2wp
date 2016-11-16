@@ -3,7 +3,7 @@
 <!--
   BEGIN: Main Content
 -->
-  <div class="container-fluid">
+  <div class="container-fluid mc">
     <div class="container">
 
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>

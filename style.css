@@ -680,8 +680,7 @@ body {
   /* Offset for Sticky Footer */ }
 
 a {
-  font-family: 'Asap', sans-serif;
-  font-size: 18px; }
+  font-family: 'Asap', sans-serif; }
   a:hover {
     color: #fff !important;
     background: #187198;
