@@ -21,7 +21,120 @@
             <h2 class="text-white">Featured</h2>
           </div>
           <div class="row bg-lgrey pad15 mar20-bot">
+            <?php query_posts('category_name=news-article&posts_per_page=1');?>
+        		<?php if (have_posts()) : ?>
+        				<?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
+        				<?php /* If this is a category archive */ if (is_category()) { ?>
+        				<?php /* If this is a tag archive */ } elseif( is_tag() ) { ?>
+        					<h2>Posts Tagged &#8216;<?php single_tag_title(); ?>&#8217;</h2>
+        				<?php /* If this is a daily archive */ } elseif (is_day()) { ?>
+        					<h2>Archive for <?php the_time('F jS, Y'); ?></h2>
+        				<?php /* If this is a monthly archive */ } elseif (is_month()) { ?>
+        					<h2>Archive for <?php the_time('F, Y'); ?></h2>
+        				<?php /* If this is a yearly archive */ } elseif (is_year()) { ?>
+        					<h2 class="pagetitle">Archive for <?php the_time('Y'); ?></h2>
+        				<?php /* If this is an author archive */ } elseif (is_author()) { ?>
+        					<h2 class="pagetitle">Author Archive</h2>
+        				<?php /* If this is a paged archive */ } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
+        					<h2 class="pagetitle">Blog Archives</h2>
+        				<?php } ?>
+        				<?php while (have_posts()) : the_post(); ?>
+                  <!-- The Content -->
+          				<div <?php post_class() ?>>
+
+                    <h4><?php the_title(); ?></h4>
+                    <p>
+                      <?php the_excerpt(); ?>
+                    </p>
+
+                  </div><!-- /The Content -->
+                <?php endwhile; ?>
+                <?php else : ?>
+                  <h2>Nothing found</h2>
+            <?php endif; ?>
           </div><!-- Top Story -->
+
+          <!-- Latest Press Releases -->
+          <div class="row pad15 bg-yellow">
+            <h4 class="text-black">Latest Press Releases</h4>
+          </div>
+          <div class="row bg-lgrey pad15 mar20-bot">
+            <?php query_posts('category_name=press-releases&posts_per_page=2');?>
+        		<?php if (have_posts()) : ?>
+        				<?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
+        				<?php /* If this is a category archive */ if (is_category()) { ?>
+        				<?php /* If this is a tag archive */ } elseif( is_tag() ) { ?>
+        					<h2>Posts Tagged &#8216;<?php single_tag_title(); ?>&#8217;</h2>
+        				<?php /* If this is a daily archive */ } elseif (is_day()) { ?>
+        					<h2>Archive for <?php the_time('F jS, Y'); ?></h2>
+        				<?php /* If this is a monthly archive */ } elseif (is_month()) { ?>
+        					<h2>Archive for <?php the_time('F, Y'); ?></h2>
+        				<?php /* If this is a yearly archive */ } elseif (is_year()) { ?>
+        					<h2 class="pagetitle">Archive for <?php the_time('Y'); ?></h2>
+        				<?php /* If this is an author archive */ } elseif (is_author()) { ?>
+        					<h2 class="pagetitle">Author Archive</h2>
+        				<?php /* If this is a paged archive */ } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
+        					<h2 class="pagetitle">Blog Archives</h2>
+        				<?php } ?>
+        				<?php while (have_posts()) : the_post(); ?>
+                  <!-- The Content -->
+          				<div <?php post_class() ?>>
+                    <div class="col-sm-6">
+                      <h4><?php the_title(); ?></h4>
+                      <p>
+                        <?php the_excerpt(); ?>
+                      </p>
+                    </div>
+                  </div><!-- /The Content -->
+                <?php endwhile; ?>
+                <?php else : ?>
+                  <h2>Nothing found</h2>
+            <?php endif; ?>
+          </div><!-- Latest Press Releases -->
+
+          <!-- Latest News Goodies -->
+          <div class="row pad15 bg-green">
+            <h4 class="text-white">Latest News</h4>
+          </div>
+          <div class="row bg-lgrey pad15 mar20-bot">
+            <table class="col-sm-12">
+            <?php query_posts('post_type=news&posts_per_page=5');?>
+
+              <?php if (have_posts()) : ?>
+
+                  <?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
+                  <?php /* If this is a category archive */ if (is_category()) { ?>
+                  <?php /* If this is a tag archive */ } elseif( is_tag() ) { ?>
+                    <h2>Posts Tagged &#8216;<?php single_tag_title(); ?>&#8217;</h2>
+                  <?php /* If this is a daily archive */ } elseif (is_day()) { ?>
+                    <h2>Archive for <?php the_time('F jS, Y'); ?></h2>
+                  <?php /* If this is a monthly archive */ } elseif (is_month()) { ?>
+                    <h2>Archive for <?php the_time('F, Y'); ?></h2>
+                  <?php /* If this is a yearly archive */ } elseif (is_year()) { ?>
+                    <h2 class="pagetitle">Archive for <?php the_time('Y'); ?></h2>
+                  <?php /* If this is an author archive */ } elseif (is_author()) { ?>
+                    <h2 class="pagetitle">Author Archive</h2>
+                  <?php /* If this is a paged archive */ } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
+                    <h2 class="pagetitle">Blog Archives</h2>
+                  <?php } ?>
+
+                  <?php while (have_posts()) : the_post(); ?>
+
+                  <div <?php post_class() ?>>
+
+                    <tr>
+                      <td class="col-sm-3 pad10 bg-dblue"><h4 class="text-center text-white"><?php the_title(); ?></h4></td>
+                      <td class="col-sm-9 pad10 bg-lgrey"><p><?php the_content(); ?></p></td>
+                    </tr>
+
+                  </div>
+
+                  <?php endwhile; ?>
+                <?php else : ?>
+                  <h2>Nothing found</h2>
+                <?php endif; ?>
+              </table>
+          </div><!-- Latest News Goodies -->
         </div><!-- Featured -->
 
         <!-- Sidebar -->
@@ -59,50 +172,6 @@
         <!-- Sidebar -->
 
       </div><!-- /.row -->
-
-
-
-      <div class="row pad15 bg-red">
-        <h2 class="text-white">Recent News and Events</h2>
-      </div>
-      <!-- Articles -->
-      <div class="row bg-lgrey pad15 mar20-bot">
-        <table class="col-sm-12">
-        <?php query_posts('post_type=news');?>
-            <?php if (have_posts()) : ?>
-              <?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
-              <?php /* If this is a category archive */ if (is_category()) { ?>
-              <?php /* If this is a tag archive */ } elseif( is_tag() ) { ?>
-                <h2>Posts Tagged &#8216;<?php single_tag_title(); ?>&#8217;</h2>
-              <?php /* If this is a daily archive */ } elseif (is_day()) { ?>
-                <h2>Archive for <?php the_time('F jS, Y'); ?></h2>
-              <?php /* If this is a monthly archive */ } elseif (is_month()) { ?>
-                <h2>Archive for <?php the_time('F, Y'); ?></h2>
-              <?php /* If this is a yearly archive */ } elseif (is_year()) { ?>
-                <h2 class="pagetitle">Archive for <?php the_time('Y'); ?></h2>
-              <?php /* If this is an author archive */ } elseif (is_author()) { ?>
-                <h2 class="pagetitle">Author Archive</h2>
-              <?php /* If this is a paged archive */ } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
-                <h2 class="pagetitle">Blog Archives</h2>
-              <?php } ?>
-
-              <?php while (have_posts()) : the_post(); ?>
-
-              <div <?php post_class() ?>>
-
-                <tr>
-                  <td class="col-sm-3 pad10 bg-dblue"><h4 class="text-center text-white"><?php the_title(); ?></h4></td>
-                  <td class="col-sm-9 pad10 bg-white"><p><?php the_content(); ?></p></td>
-                </tr>
-
-              </div>
-
-              <?php endwhile; ?>
-              <?php else : ?>
-                <h2>Nothing found</h2>
-              <?php endif; ?>
-          </table>
-      </div><!-- End Articles -->
     </div>
   </div>
 <!-- END: Main Content -->
