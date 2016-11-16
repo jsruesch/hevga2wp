@@ -139,15 +139,21 @@
       -->
         <div class="col-sm-3">
           <!-- Section Buttons -->
-          <div class="row pad15 bg-dblue">
-            <h4 class="text-center text-white">News</h4>
-          </div>
-          <div class="row pad15 bg-lblue">
-            <h4 class="text-center text-white">Press Releases</h4>
-          </div>
-          <div class="row pad15 bg-green mar20-bot">
-            <h4 class="text-center text-white">Newsletters</h4>
-          </div><!-- Section Buttons -->
+          <a href="#">
+            <div class="row pad15 bg-dblue b-link">
+              <h4 class="text-center text-white">News</h4>
+            </div>
+          </a>
+          <a href="#">
+            <div class="row pad15 bg-lblue b-link">
+              <h4 class="text-center text-white">Press Releases</h4>
+            </div>
+          </a>
+          <a href="#">
+            <div class="row pad15 bg-green mar20-bot b-link">
+              <h4 class="text-center text-white">Newsletters</h4>
+            </div>
+          </a><!-- Section Buttons -->
           <!-- Media Contact -->
           <div class="row pad15 bg-black">
             <h4 class="text-white">Media Contact</h4>
