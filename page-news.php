@@ -14,16 +14,15 @@
     <div class="container">
       <div class="row">
 
-
         <!-- Featured -->
         <div class="col-sm-9">
-          <!-- Press Kit -->
+          <!-- Top Story -->
           <div class="row pad15 bg-red">
             <h2 class="text-white">Featured</h2>
           </div>
           <div class="row bg-lgrey pad15 mar20-bot">
-          </div><!-- Press Kit -->
-        </div>
+          </div><!-- Top Story -->
+        </div><!-- Featured -->
 
         <!-- Sidebar -->
         <div class="col-sm-3">
@@ -59,7 +58,7 @@
         </div>
         <!-- Sidebar -->
 
-      </div><!-- Featured -->
+      </div><!-- /.row -->
 
 
 
