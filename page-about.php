@@ -56,19 +56,6 @@
               </div>
             </div>
           </a><!-- /Tracy -->
-          <!-- Jonathan -->
-          <a href="/hevga2wp/bio-jonathan/">
-            <div class="col-sm-6 col-md-4 pad20 ec-profile">
-              <div class="row">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_jonathan.png" class="center-block"/>
-              </div>
-              <div class="row mar15-top">
-                <h4 class="text-dblue text-center">Jonathan Elmergreen</h4>
-                <p class="text-center"><strong>University of Wisconsin-Madison</strong></p>
-                <p class="text-center">Executive Director</p>
-              </div>
-            </div>
-          </a><!-- /Jonathan -->
           <!-- Andrew -->
           <a href="/hevga2wp/bio-andrew/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">
@@ -108,6 +95,19 @@
               </div>
             </div>
           </a><!-- /Katherine -->
+          <!-- Jonathan -->
+          <a href="/hevga2wp/bio-jonathan/">
+            <div class="col-sm-6 col-md-4 pad20 ec-profile">
+              <div class="row">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_jonathan.png" class="center-block"/>
+              </div>
+              <div class="row mar15-top">
+                <h4 class="text-dblue text-center">Jonathan Elmergreen</h4>
+                <p class="text-center"><strong>University of Wisconsin-Madison</strong></p>
+                <p class="text-center">Executive Director</p>
+              </div>
+            </div>
+          </a><!-- /Jonathan -->
         </div><!-- /.row -->
       </div><!-- /Executive Committee -->
       <!-- Institutions -->
