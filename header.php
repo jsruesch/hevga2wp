@@ -212,7 +212,7 @@
               <li>
                 <a href="https://www.facebook.com/hevga/?fref=ts" target="_blank" class="bg-fbpurple mar1-top">
                     <h4 class="text-white">
-                      <i class="fa fa-flickr text-white" aria-hidden="true"></i>
+                      <i class="fa fa-facebook-official text-white" aria-hidden="true"></i>
                       <span class="nav-text"> Facebook</span>
                     </h4>
                 </a>
