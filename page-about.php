@@ -34,7 +34,7 @@
           <a href="/hevga2wp/bio-constance/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">
               <div class="row">
-                <img src="/hevga2wp/wp-content/themes/hevga/img/portraits/portrait_constance.png" class="center-block"/>
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_constance.png" class="center-block"/>
               </div>
               <div class="row mar15-top">
                 <h4 class="text-dblue text-center">Constance Steinkuehler</h4>
@@ -47,7 +47,7 @@
           <a href="/hevga2wp/bio-tracy/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">
               <div class="row">
-                <img src="/hevga2wp/wp-content/themes/hevga/img/portraits/portrait_tracy.png" class="center-block"/>
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_tracy.png" class="center-block"/>
               </div>
               <div class="row mar15-top">
                 <h4 class="text-dblue text-center">Tracy Fullerton</h4>
@@ -60,7 +60,7 @@
           <a href="/hevga2wp/bio-jonathan/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">
               <div class="row">
-                <img src="/hevga2wp/wp-content/themes/hevga/img/portraits/portrait_jonathan.png" class="center-block"/>
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_jonathan.png" class="center-block"/>
               </div>
               <div class="row mar15-top">
                 <h4 class="text-dblue text-center">Jonathan Elmergreen</h4>
@@ -73,7 +73,7 @@
           <a href="/hevga2wp/bio-andrew/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">
               <div class="row">
-                <img src="/hevga2wp/wp-content/themes/hevga/img/portraits/portrait_andrew.png" class="center-block"/>
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_andrew.png" class="center-block"/>
               </div>
               <div class="row mar15-top">
                 <h4 class="text-dblue text-center">Andrew Phelps</h4>
@@ -86,7 +86,7 @@
           <a href="/hevga2wp/bio-drew/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">
               <div class="row">
-                <img src="/hevga2wp/wp-content/themes/hevga/img/portraits/portrait_drew.png" class="center-block"/>
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_drew.png" class="center-block"/>
               </div>
               <div class="row mar15-top">
                 <h4 class="text-dblue text-center">Drew Davidson</h4>
@@ -99,7 +99,7 @@
           <a href="/hevga2wp/bio-katherine/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">
               <div class="row">
-                <img src="/hevga2wp/wp-content/themes/hevga/img/portraits/portrait_katherine.png" class="center-block"/>
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_katherine.png" class="center-block"/>
               </div>
               <div class="row mar15-top">
                 <h4 class="text-dblue text-center">Katherine Isbister</h4>
@@ -117,7 +117,7 @@
         </div>
         <div class="row bg-lgrey pad15">
           <div class="row pad15">
-            <img class="full" src="/hevga2wp/wp-content/themes/hevga/img/hevga_map_usa.png"/>
+            <img class="full" src="<?php echo get_template_directory_uri(); ?>/img/hevga_map_usa.png"/>
           </div>
           <div class="row mar15-top mar15-bot">
             <div class="col-md-3 col-sm-6">
