@@ -203,26 +203,26 @@
               </li>
               <li>
                 <a href="https://twitter.com/HigherEdGames" target="_blank" class="bg-lblue mar1-top">
-                    <h5 class="text-white">
+                    <h4 class="text-white">
                       <i class="fa fa-twitter-square text-white" aria-hidden="true"></i>
                       <span class="nav-text"> Twitter</span>
-                    </h5>
+                    </h4>
                 </a>
               </li>
               <li>
                 <a href="https://www.facebook.com/hevga/?fref=ts" target="_blank" class="bg-fbpurple mar1-top">
-                    <h5 class="text-white">
+                    <h4 class="text-white">
                       <i class="fa fa-flickr text-white" aria-hidden="true"></i>
                       <span class="nav-text"> Facebook</span>
-                    </h5>
+                    </h4>
                 </a>
               </li>
               <li>
                 <a href="https://www.flickr.com/photos/hevga" target="_blank" class="bg-pink mar1-top">
-                    <h5 class="text-white">
+                    <h4 class="text-white">
                       <i class="fa fa-flickr text-white" aria-hidden="true"></i>
                       <span class="nav-text"> Flickr</span>
-                    </h5>
+                    </h4>
                 </a>
               </li>
               <!-- END: Teams -->
