@@ -41,7 +41,7 @@
 <!-- Google Font -->
 <link href="https://fonts.googleapis.com/css?family=Asap:400,700" rel="stylesheet">
 <!-- Favicon -->
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico" type="image/x-icon" />
 <!-- FontAwesome -->
 <script src="https://use.fontawesome.com/0393b24120.js"></script>
 <!-- Institution Accordion Setup -->
