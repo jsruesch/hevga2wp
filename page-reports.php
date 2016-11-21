@@ -51,13 +51,13 @@
           </p>
         </div>
         <div class="col-sm-6 pad15">
-          <img class="rep-img" src="/hevga2wp/wp-content/themes/hevga/img/reports/high_employment_image.png"/>
+          <img class="rep-img" src="<?php echo get_template_directory_uri(); ?>/img/reports/high_employment_image.png"/>
         </div>
       </div><!-- /Section 1-->
       <!-- Section 2 -->
       <div class="row mar20-bot">
         <div class="col-sm-6 pad15">
-          <img class="rep-img" src="/hevga2wp/wp-content/themes/hevga/img/reports/higher_job_satisfaction_image.png"/>
+          <img class="rep-img" src="<?php echo get_template_directory_uri(); ?>/img/reports/higher_job_satisfaction_image.png"/>
         </div>
         <div class="col-sm-6 bg-lgrey pad15">
           <h4 class="text-lblue">Higher Job Satisfaction</h4>
@@ -92,13 +92,13 @@
           </p>
         </div>
         <div class="col-sm-6 pad15">
-          <img class="rep-img" src="/hevga2wp/wp-content/themes/hevga/img/reports/enrollment_image.png"/>
+          <img class="rep-img" src="<?php echo get_template_directory_uri(); ?>/img/reports/enrollment_image.png"/>
         </div>
       </div><!-- /Section 3 -->
       <!-- Section 4 -->
       <div class="row mar20-bot">
         <div class="col-sm-6 pad15">
-          <img class="rep-img" src="/hevga2wp/wp-content/themes/hevga/img/reports/diversity_image.png"/>
+          <img class="rep-img" src="<?php echo get_template_directory_uri(); ?>/img/reports/diversity_image.png"/>
         </div>
         <div class="col-sm-6 bg-lgrey pad15">
           <h4 class="text-lblue">Gender Diversity</h4>
