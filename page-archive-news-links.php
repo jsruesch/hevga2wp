@@ -76,10 +76,10 @@
           </div>
           <div class="row bg-lgrey pad15 mar20-bot">
             <p>
-              <strong>Firstname Lastname</strong><br/>
-              title<br/>
-              <a href="mailto:" target="_blank">email@email.com</a><br/>
-              555-555-555<br/>
+              <strong>Jonathan Elmergreen</strong><br/>
+              Executive Director<br/>
+              <a href="mailto:info@higheredgames.org" target="_blank">info@higheredgames.org</a><br/>
+              855.304.3842<br/>
             </p>
           </div><!-- Media Contact -->
           <!-- Press Kit -->
