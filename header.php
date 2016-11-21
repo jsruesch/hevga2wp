@@ -32,6 +32,7 @@
 	<?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 <?php wp_head(); ?>
 
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <!-- jQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Bootstrap -->
