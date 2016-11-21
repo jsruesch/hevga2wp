@@ -69,13 +69,13 @@
   <div class="container-fluid">
     <div class="container">
       <div class="row mar20-bot">
-        <a href="" class="b-link">
+        <a href="<?php echo get_template_directory_uri(); ?>/assets/HEVGA_6-15-15des2.pdf" target="_blank" class="b-link">
           <div class="col-sm-6 pad20 bg-lblue">
             <h3 class="text-center text-white">"Priming the Pump"</h3>
             <p class="text-center text-white">The second Higher Education Video Game Alliance Survey</p>
           </div>
         </a>
-        <a href="#" class="b-link">
+        <a href="<?php echo get_template_directory_uri(); ?>/assets/2015_HEVGA_Survey_Results.pdf" target="_blank" class="b-link">
           <div class="col-sm-6 pad20 bg-dblue">
             <h3 class="text-center text-white">"Our State of Play"</h3>
             <p class="text-center text-white"> March 2015 Survey on Game-Based Programs in Higher Ed</p>
