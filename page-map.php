@@ -14,8 +14,8 @@
     <div class="container">
       <!-- Bio -->
       <div class="row bg-lgrey pad15 mar20-bot">
-        <img class="full mar15-bot" src="/hevga2wp/wp-content/themes/hevga/img/esa-infographic.png"/>
-        <img class="full" src="/hevga2wp/wp-content/themes/hevga/img/esa-infographic-2.png"/>
+        <img class="full mar15-bot" src="<?php echo get_template_directory_uri(); ?>/img/esa-infographic.png"/>
+        <img class="full" src="<?php echo get_template_directory_uri(); ?>/img/esa-infographic-2.png"/>
       </div>
     </div>
   </div>

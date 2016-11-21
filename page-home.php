@@ -96,7 +96,7 @@
       </div><!-- /Mission -->
       <!-- Certification and Industry Map -->
       <div class="row mar20-bot">
-        <a href="#" class="b-link">
+        <a href="http://www.theesa.com/about-esa/courses-certificates-degree-programs/" target="_blank" class="b-link">
           <div class="col-sm-6">
             <div class="full pad10 bg-green">
               <h3 class="text-white text-center">Certification and Degree <br/> Programs</h3>
