@@ -65,6 +65,9 @@ Version: 1
 .text-fbpurple {
   color: #3B5998 !important; }
 
+.text-pink {
+  color: #FF0084 !important; }
+
 .bg-red {
   background: #EF3F35; }
 
@@ -100,6 +103,9 @@ Version: 1
 
 .bg-fbpurple {
   background: #3B5998; }
+
+.bg-pink {
+  background: #FF0084; }
 
 /* Bootstrap Overrides */
 .container,
@@ -242,6 +248,9 @@ h1, h2, h3, h4, h5, p {
 
 .mar30 {
   margin: 30px !important; }
+
+.mar1-top {
+  margin-top: 1px !important; }
 
 .mar5-top {
   margin-top: 5px !important; }
@@ -377,6 +386,9 @@ h1, h2, h3, h4, h5, p {
 .text-fbpurple {
   color: #3B5998 !important; }
 
+.text-pink {
+  color: #FF0084 !important; }
+
 .bg-red {
   background: #EF3F35; }
 
@@ -412,6 +424,9 @@ h1, h2, h3, h4, h5, p {
 
 .bg-fbpurple {
   background: #3B5998; }
+
+.bg-pink {
+  background: #FF0084; }
 
 /* Bootstrap Overrides */
 .container,
@@ -555,6 +570,9 @@ h1, h2, h3, h4, h5, p {
 .mar30 {
   margin: 30px !important; }
 
+.mar1-top {
+  margin-top: 1px !important; }
+
 .mar5-top {
   margin-top: 5px !important; }
 
@@ -635,6 +653,9 @@ h1, h2, h3, h4, h5, p {
 @media screen and (max-width: 768px) {
   body {
     padding-bottom: 205px !important; }
+
+  .nav-text {
+    display: inline-block !important; }
 
   .navbar-inverse .container {
     width: 100% !important;
@@ -810,6 +831,9 @@ table tr {
  * Elements
  * =========================================
  */
+.nav-text {
+  display: none; }
+
 .ec-profile {
   transition: background-color 100ms linear;
   background: #f7f7f7; }

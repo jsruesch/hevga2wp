@@ -198,10 +198,32 @@
                       <li><a href="/hevga2wp/login"><span class="text-white"><h5>Login</h5></span></a></li>
                       <li><a href="/hevga2wp/register"><span class="text-white"><h5>Register</h5></span></a></li>
                       <li><a href="/hevga2wp/membership" class="bg-yellow"><span class="text-white"><h5>Apply</h5></span></a></li>
-                      <li><a href="https://twitter.com/HigherEdGames" target="_blank" class="bg-lblue"><span class="text-white"><h5><i class="fa fa-twitter-square text-white" aria-hidden="true"></i> Twitter</h5></span></a></li>
-                      <li><a href="https://www.facebook.com/hevga/?fref=ts" target="_blank" class="bg-fbpurple"><span class="text-white"><h5><i class="fa fa-facebook-square text-white" aria-hidden="true"></i> Facebook</h5></span></a></li>
                       <!--<li role="separator" class="divider"></li>-->
                   </ul>
+              </li>
+              <li>
+                <a href="https://twitter.com/HigherEdGames" target="_blank" class="bg-lblue mar1-top">
+                    <h5 class="text-white">
+                      <i class="fa fa-twitter-square text-white" aria-hidden="true"></i>
+                      <span class="nav-text"> Twitter</span>
+                    </h5>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/hevga/?fref=ts" target="_blank" class="bg-fbpurple mar1-top">
+                    <h5 class="text-white">
+                      <i class="fa fa-flickr text-white" aria-hidden="true"></i>
+                      <span class="nav-text"> Facebook</span>
+                    </h5>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.flickr.com/photos/hevga" target="_blank" class="bg-pink mar1-top">
+                    <h5 class="text-white">
+                      <i class="fa fa-flickr text-white" aria-hidden="true"></i>
+                      <span class="nav-text"> Flickr</span>
+                    </h5>
+                </a>
               </li>
               <!-- END: Teams -->
             </ul>

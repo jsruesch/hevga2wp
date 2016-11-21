@@ -158,6 +158,8 @@ table tr{ border-bottom: 1px solid $dgrey; }
  * =========================================
  */
 
+.nav-text{ display: none; }
+
 .ec-profile{
   transition: background-color 100ms linear;
   background: $lgrey;

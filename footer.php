@@ -12,7 +12,8 @@
             <br />
             <a href="/hevga2wp/contact"><i class="fa fa-envelope text-dblue" aria-hidden="true"></i> Contact</a><span class="mar10-left mar10-right">|</span>
             <a href="https://twitter.com/HigherEdGames" target="_blank" ><i class="fa fa-twitter-square text-lblue" aria-hidden="true"></i> Twitter</a><span class="mar10-left mar10-right">|</span>
-            <a href="https://www.facebook.com/hevga/?fref=ts" target="_blank" ><i class="fa fa-facebook-official text-fbpurple" aria-hidden="true"></i> Facebook</a>
+            <a href="https://www.facebook.com/hevga/?fref=ts" target="_blank" ><i class="fa fa-facebook-official text-fbpurple" aria-hidden="true"></i> Facebook</a><span class="mar10-left mar10-right">|</span>
+            <a href="https://www.flickr.com/photos/hevga" target="_blank" ><i class="fa fa-flickr text-pink" aria-hidden="true"></i> Flickr</a>
           </p>
         </div>
       </div><!-- /footer -->

@@ -39,6 +39,7 @@
  $black:    #111111;
  $fbpurple: #3B5998;
  $white:    #fff;
+ $pink:     #FF0084;
 
  /* END Variables */
 
@@ -61,6 +62,7 @@
  .text-black{ color:    $black !important; }
  .text-white{ color:    #fff !important; }
  .text-fbpurple{ color: $fbpurple !important; }
+ .text-pink{ color:     $pink !important; }
 
  .bg-red{ background:       $red; }
  .bg-green{ background:     $green; }
@@ -74,6 +76,7 @@
  .bg-black{ background:     $black; }
  .bg-white{ background:     $white; }
  .bg-fbpurple{ background:  $fbpurple; }
+ .bg-pink{ background:      $pink; }
 
  /* Bootstrap Overrides */
  .container,
@@ -154,6 +157,7 @@
  .mar25{    margin: 25px !important; }
  .mar30{    margin: 30px !important; }
 
+ .mar1-top{     margin-top: 1px !important; }
  .mar5-top{     margin-top: 5px !important; }
  .mar10-top{    margin-top: 10px !important; }
  .mar15-top{    margin-top: 15px !important; }
