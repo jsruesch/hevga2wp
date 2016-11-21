@@ -179,7 +179,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/hevga2wp/"><img src="/hevga2wp/wp-content/themes/hevga/img/nav-logo.png"/></a>
+            <a class="navbar-brand" href="/hevga2wp/"><img src="/hevga2wp/img/nav-logo.png"/></a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
