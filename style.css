@@ -873,6 +873,9 @@ table tr {
   float: left;
   height: auto !important; }
 
+.sponsors img {
+  max-width: 100%; }
+
 /* END: Elements */
 /**
  * =========================================

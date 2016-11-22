@@ -478,6 +478,21 @@
     					</div><!-- End Accordions -->
           </div>
         </div><!-- /Institutions -->
+
+        <!-- Sponsors -->
+        <div class="row mar20-bot sponsors">
+          <div class="row pad15 bg-yellow">
+            <h2 class="text-black">Sponsors</h2>
+          </div>
+          <div class="row bg-lgrey">
+            <div class="col-sm-6 pad15">
+              <a href="http://www.theesa.com/" target="_blank"><img class="center-block" src="<?php echo get_template_directory_uri(); ?>/img/sponsors/sponsor-esa.png"/></a>
+            </div>
+            <div class="col-sm-6 pad15">
+              <a href="" target="_blank"><img class="center-block pad15-top" src="<?php echo get_template_directory_uri(); ?>/img/sponsors/sponsor-devry.png"/></a>
+            </div>
+          </div>
+        </div><!-- End Sponsors -->
     </div>
   </div>
 <!-- END: Main Content -->

@@ -24,7 +24,7 @@
         <div class="item active">
           <div class="cslide slide-bg-01"></div>
           <div class="carousel-caption mar10-bot">
-            <h2 class="text-yellow">HEVGA President Constance Steinkhueler</h2>
+            <h3 class="text-yellow">HEVGA President Constance Steinkhueler</h3>
             <p>
               Spoke at at Event during Democratic National Convention on <strong>"The Future of Video Games, Interactive Media & Play</strong>"
             </p>
@@ -33,7 +33,7 @@
         <div class="item">
           <div class="cslide slide-bg-02"></div>
           <div class="carousel-caption mar10-bot">
-            <h2 class="text-yellow">Caption 02</h2>
+            <h3 class="text-yellow">Caption 02</h3>
             <p>
               Subtitle
             </p>
@@ -42,7 +42,7 @@
         <div class="item">
           <div class="cslide slide-bg-03"></div>
           <div class="carousel-caption mar10-bot">
-            <h2 class="text-yellow">Caption 03</h2>
+            <h3 class="text-yellow">Caption 03</h3>
             <p>
               Subtitle
             </p>
