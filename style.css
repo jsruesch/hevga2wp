@@ -885,9 +885,6 @@ table tr {
 .carousel-control:hover {
   background: none !important; }
 
-.carousel-caption {
-  padding-bottom: 0 !important; }
-
 .cslide {
   min-height: 325px;
   max-height: 350px; }
