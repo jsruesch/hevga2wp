@@ -203,25 +203,25 @@
                   </ul>
               </li>
               <li>
-                <a href="https://twitter.com/HigherEdGames" target="_blank" class="bg-lblue">
+                <a href="https://twitter.com/HigherEdGames" target="_blank">
                     <h4 class="text-white mar1-top">
-                      <i class="fa fa-twitter-square text-white" aria-hidden="true"></i>
+                      <i class="fa fa-twitter-square text-lblue pad5-left" aria-hidden="true"></i>
                       <span class="nav-text"> Twitter</span>
                     </h4>
                 </a>
               </li>
               <li>
-                <a href="https://www.facebook.com/hevga/?fref=ts" target="_blank" class="bg-fbpurple">
+                <a href="https://www.facebook.com/hevga/?fref=ts" target="_blank">
                     <h4 class="text-white mar1-top">
-                      <i class="fa fa-facebook-official text-white" aria-hidden="true"></i>
+                      <i class="fa fa-facebook-official text-fbpurple" aria-hidden="true"></i>
                       <span class="nav-text"> Facebook</span>
                     </h4>
                 </a>
               </li>
               <li>
-                <a href="https://www.flickr.com/photos/hevga" target="_blank" class="bg-pink">
+                <a href="https://www.flickr.com/photos/hevga" target="_blank">
                     <h4 class="text-white mar1-top">
-                      <i class="fa fa-flickr text-white" aria-hidden="true"></i>
+                      <i class="fa fa-flickr text-pink" aria-hidden="true"></i>
                       <span class="nav-text"> Flickr</span>
                     </h4>
                 </a>
