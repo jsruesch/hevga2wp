@@ -33,7 +33,7 @@
           </a>
         </div>
         <div class="item">
-          <a href="/assets/AARP-and-ESA-Announce-UCSC’s-Trainwreck-Games-as-Winner-of-Social-Connection-GameJam.pdf" target="_blank">
+          <a href="<?php echo get_template_directory_uri(); ?>/assets/AARP-and-ESA-Announce-UCSC’s-Trainwreck-Games-as-Winner-of-Social-Connection-GameJam.pdf" target="_blank">
             <div class="cslide slide-bg-02"></div>
             <div class="carousel-caption mar10-bot">
               <h3 class="text-yellow">AARP & ESA Game Jam Winner</h3>
