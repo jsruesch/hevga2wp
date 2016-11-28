@@ -904,6 +904,14 @@ table tr {
   background: url(img/slides/slide-01.png) 50% 0%;
   margin: 0 auto; }
 
+.slide-bg-04 {
+  background: url(img/slides/slide-04.png) 50% 0%;
+  margin: 0 auto; }
+
+.slide-bg-05 {
+  background: url(img/slides/slide-05.png) 50% 0%;
+  margin: 0 auto; }
+
 /* END: Carousel */
 /**
  * =========================================

@@ -22,31 +22,37 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <div class="cslide slide-bg-01"></div>
-          <div class="carousel-caption mar10-bot">
-            <h3 class="text-yellow">HEVGA President Constance Steinkhueler</h3>
-            <p>
-              Spoke at at Event during Democratic National Convention on <strong>"The Future of Video Games, Interactive Media & Play</strong>"
-            </p>
-          </div>
+          <a href="/article_writeups/article-writeup-01/">
+            <div class="cslide slide-bg-05"></div>
+            <div class="carousel-caption mar10-bot">
+              <h3 class="text-yellow">HEVGA President Constance Steinkhueler</h3>
+              <p>
+                Spoke at at Event during Democratic National Convention on <strong>"The Future of Video Games, Interactive Media & Play</strong>"
+              </p>
+            </div>
+          </a>
         </div>
         <div class="item">
-          <div class="cslide slide-bg-02"></div>
-          <div class="carousel-caption mar10-bot">
-            <h3 class="text-yellow">Caption 02</h3>
-            <p>
-              Subtitle
-            </p>
+          <a href="/assets/AARP-and-ESA-Announce-UCSC’s-Trainwreck-Games-as-Winner-of-Social-Connection-GameJam.pdf" target="_blank">
+            <div class="cslide slide-bg-02"></div>
+            <div class="carousel-caption mar10-bot">
+              <h3 class="text-yellow">AARP & ESA Game Jam Winner</h3>
+              <p>
+                AARP & ESA announce UCSC's Trainwreck Games as winner of Social Connection Game Jam Competition at E3 2016
+              </p>
           </div>
+          </a>
         </div>
         <div class="item">
-          <div class="cslide slide-bg-03"></div>
-          <div class="carousel-caption mar10-bot">
-            <h3 class="text-yellow">Caption 03</h3>
-            <p>
-              Subtitle
-            </p>
-          </div>
+          <a href="https://www.facebook.com/hevga/?fref=ts" target="_blank">
+            <div class="cslide slide-bg-04"></div>
+            <div class="carousel-caption mar10-bot">
+              <h3 class="text-yellow">Like us on Facebook</h3>
+              <p>
+                Stay up to date with what's going on at HEVGA!
+              </p>
+            </div>
+          </a>
         </div>
       </div>
 
