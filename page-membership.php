@@ -71,7 +71,7 @@
       </div>
       <div class="row bg-lgrey pad15 mar20-bot">
         <div class="col-sm-6 col-sm-offset-3">
-          <?php echo do_shortcode("[ninja_form id=2]"); ?>
+          <?php echo do_shortcode("[ultimatemember form_id=21]"); ?>
         </div>
       </div>
 
