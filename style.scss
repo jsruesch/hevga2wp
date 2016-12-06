@@ -114,7 +114,7 @@ table tr{ border-bottom: 1px solid $dgrey; }
 
 .navbar{                margin-bottom: 0 !important; border: 0 !important; }
 .navbar-toggle{         border-radius: 0 !important; border: none !important; }
-.navbar-nav>li:hover {  @include transition; background: $red; }
+.navbar-nav>li:hover {  @include transition; background: #333; }
 .navbar-inverse .navbar-nav>li>a{
   font-family:    'Asap', sans-serif;
   font-size:      14px !important;

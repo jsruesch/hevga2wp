@@ -791,7 +791,7 @@ table tr {
   -moz-transition: all 0.2s ease;
   -ms-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
-  background: #EF3F35; }
+  background: #333; }
 
 .navbar-inverse .navbar-nav > li > a {
   font-family: 'Asap', sans-serif;
