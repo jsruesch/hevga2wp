@@ -801,11 +801,7 @@ table tr {
   letter-spacing: 1px; }
 
 .dropdown-toggle {
-  background: #ECCB00;
-  color: #111111 !important; }
-  .dropdown-toggle:hover {
-    background: #ECCB00 !important;
-    color: #111111 !important; }
+  color: #fff !important; }
 
 .navbar-inverse .navbar-nav > .open > a {
   background: #ECCB00 !important;

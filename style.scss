@@ -123,13 +123,7 @@ table tr{ border-bottom: 1px solid $dgrey; }
   letter-spacing: 1px;
 }
 .dropdown-toggle{
-  background: $yellow;
-  color:      $black !important;
-
-  &:hover{
-    background: $yellow !important;
-    color:      $black !important;
-  }
+  color: $white !important;
 }
 .navbar-inverse .navbar-nav>.open>a{
   background: $yellow !important;

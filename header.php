@@ -168,6 +168,7 @@
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
               <li><a href="/hevga2wp/about" class="text-white">About</a></li>
+              <li><a href="/hevga2wp/membership" class="text-white">Membership</a></li>
               <li><a href="/hevga2wp/members" class="text-white">Members</a></li>
               <li><a href="/hevga2wp/reports" class="text-white">Reports</a></li>
               <li><a href="/hevga2wp/news" class="text-white">News</a></li>
@@ -175,11 +176,11 @@
               <li><a href="/hevga2wp/contact" class="text-white">Contact</a></li>
               <!-- START: Teams -->
               <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Join Us <span class="caret"></span></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                       <li><a href="/hevga2wp/login"><span class="text-white"><h5>Login</h5></span></a></li>
-                      <li><a href="/hevga2wp/register"><span class="text-white"><h5>Register</h5></span></a></li>
-                      <li><a href="/hevga2wp/membership" class="bg-yellow"><span class="text-white"><h5>Apply</h5></span></a></li>
+                      <li><a href="/hevga2wp/logout"><span class="text-white"><h5>Log Out</h5></span></a></li>
+                      <li><a href="/hevga2wp/user"><span class="text-white"><h5>Profile</h5></span></a></li>
                       <!--<li role="separator" class="divider"></li>-->
                   </ul>
               </li>
