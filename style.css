@@ -803,10 +803,6 @@ table tr {
 .dropdown-toggle {
   color: #fff !important; }
 
-.navbar-inverse .navbar-nav > .open > a {
-  background: #ECCB00 !important;
-  color: #111111 !important; }
-
 .dropdown-menu {
   background: #111111 !important;
   padding: 0 !important;
