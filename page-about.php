@@ -482,7 +482,7 @@
         <!-- Sponsors -->
         <div class="row mar20-bot sponsors">
           <div class="row pad15 bg-yellow">
-            <h2 class="text-black">Sponsors</h2>
+            <h2 class="text-black">Partners</h2>
           </div>
           <div class="row bg-lgrey">
             <div class="col-sm-6 pad15">
