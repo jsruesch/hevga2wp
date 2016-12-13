@@ -124,6 +124,7 @@ table tr{ border-bottom: 1px solid $dgrey; }
 }
 .dropdown-toggle{
   color: $white !important;
+  background: $lblue;
 }
 .navbar-inverse .navbar-nav>.open>a{
 }
@@ -140,6 +141,12 @@ table tr{ border-bottom: 1px solid $dgrey; }
   }
 }
 .nav>li>a{ padding: 15px 10px !important; }
+
+/* Forces button color */
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:visited,
+.navbar-inverse .navbar-nav>.open>a:hover{ background: $lblue !important; }
 
  /* END: Navigation */
 

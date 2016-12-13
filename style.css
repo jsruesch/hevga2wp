@@ -801,7 +801,8 @@ table tr {
   letter-spacing: 1px; }
 
 .dropdown-toggle {
-  color: #fff !important; }
+  color: #fff !important;
+  background: #45B6E5; }
 
 .dropdown-menu {
   background: #111111 !important;
@@ -816,6 +817,13 @@ table tr {
 
 .nav > li > a {
   padding: 15px 10px !important; }
+
+/* Forces button color */
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:focus,
+.navbar-inverse .navbar-nav > .open > a:visited,
+.navbar-inverse .navbar-nav > .open > a:hover {
+  background: #45B6E5 !important; }
 
 /* END: Navigation */
 /**
