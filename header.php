@@ -176,7 +176,7 @@
               <li><a href="/hevga2wp/contact" class="text-white">Contact</a></li>
               <!-- START: Teams -->
               <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account <span class="caret"></span></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="text-yellow">Account</span> <span class="caret text-yellow"></span></a>
                   <ul class="dropdown-menu">
                       <li><a href="/hevga2wp/login"><span class="text-white"><h5>Login</h5></span></a></li>
                       <li><a href="/hevga2wp/logout"><span class="text-white"><h5>Log Out</h5></span></a></li>
