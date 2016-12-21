@@ -22,6 +22,15 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
+            <div class="cslide slide-bg-06"></div>
+            <div class="carousel-caption mar10-bot">
+              <h3 class="text-yellow">HEVGA Member Meeting -Save the Date!</h3>
+              <p>
+              February 26 - GDC, San Francisco
+              </p>
+            </div>
+        </div>
+        <div class="item">
           <a href="/article_writeups/article-writeup-01/">
             <div class="cslide slide-bg-05"></div>
             <div class="carousel-caption mar10-bot">
