@@ -1,10 +1,3 @@
-<?php
-/*
- Template Name: Shop
-*/
-?>
-
-
 <?php get_header(); ?>
 
 <!--
