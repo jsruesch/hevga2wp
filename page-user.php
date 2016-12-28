@@ -35,7 +35,12 @@
               <div class="row bg-lgrey pad15 mar20-bot">
                 <?php the_content(); ?>
               </div>
-            </div><!-- /The Content -->
+            </div>
+            <a href="/shop/">
+                <div class="row pad15 bg-dblue b-link">
+                    <h4 class="text-center text-white">Membership Options</h4>
+                </div>
+            </a><!-- /The Content -->
             <?php endwhile; ?>
             <?php else : ?>
               <h2>Nothing found</h2>
