@@ -349,14 +349,14 @@ input[type=submit].um-button:focus,
 }
 
 a.um-link-alt{
-    color: $dgrey !important;
+    color: $black !important;
     font-family:    'Asap', sans-serif !important;
     font-size:      18px !important;
     text-transform: uppercase !important;
     font-weight:    700 !important;
 
     &:hover{
-        color: $dgrey !important;
+        color: $black !important;
         background: none !important;
     }
 }
