@@ -324,7 +324,7 @@ table tr{ border-bottom: 1px solid $dgrey; }
 .um-col-alt{ margin: 15px 0 0 0 !important; }
 
 input[type=submit].um-button,
-input[type=submit].um-button .um-alt,
+input[type=submit].um-alt,
 input[type=submit].um-button:focus,
 .um-search .um-alt .um-search-submit .um-button{
   border-radius:  0 !important;
@@ -337,7 +337,6 @@ input[type=submit].um-button:focus,
   font-weight:    700 !important;
 }
 
-a.um-alt{ font-weight: 700 !important; }
 
 /* END: UM Overrides */
 
