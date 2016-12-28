@@ -1136,8 +1136,19 @@ table tr {
   margin: 15px 0 0 0 !important; }
 
 input[type=submit].um-button,
+input[type=submit].um-alt,
 input[type=submit].um-button:focus,
-.um-search .um-search-submit .um-button {
+.um-search .um-alt .um-search-submit .um-button {
+  border-radius: 0 !important;
+  background: #45B6E5 !important;
+  border: 0 !important;
+  color: #fff !important;
+  font-family: 'Asap', sans-serif !important;
+  font-size: 18px !important;
+  text-transform: uppercase !important;
+  font-weight: 700 !important; }
+
+.um-5.um .um-button.um-alt, .um-5.um input[type=submit].um-button.um-alt {
   border-radius: 0 !important;
   background: #45B6E5 !important;
   border: 0 !important;
@@ -1177,6 +1188,17 @@ input[type="button"].nf-element {
   font-weight: 300 !important; }
 
 /* END: Ninja Forms */
+/**
+ * =========================================
+ * WOo Commerce
+ * =========================================
+ */
+.woocommerce ul.products li.product h3 {
+  color: #187198 !important; }
+  .woocommerce ul.products li.product h3:hover {
+    color: #187198 !important; }
+
+/* End Woo Commerce */
 /**
  * =========================================
  * Footer
