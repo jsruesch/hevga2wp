@@ -387,6 +387,21 @@ input[type="button"].nf-element{
 
 /**
  * =========================================
+ * WOo Commerce
+ * =========================================
+ */
+
+.woocommerce ul.products li.product a{
+    &:hover{
+        color: $dblue !important;
+    }
+}
+
+ /* End Woo Commerce */
+
+
+/**
+ * =========================================
  * Footer
  * =========================================
  */
