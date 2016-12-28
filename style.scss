@@ -349,24 +349,15 @@ input[type=submit].um-button:focus,
 }
 
 a.um-link-alt{
-    border-radius:  0 !important;
-    background:     $lblue !important;
-    border:         0 !important;
-    color:          #fff !important;
+    color: $dgrey !important;
     font-family:    'Asap', sans-serif !important;
     font-size:      18px !important;
     text-transform: uppercase !important;
     font-weight:    700 !important;
 
     &:hover{
-        border-radius:  0 !important;
-        background:     $lblue !important;
-        border:         0 !important;
-        color:          #fff !important;
-        font-family:    'Asap', sans-serif !important;
-        font-size:      18px !important;
-        text-transform: uppercase !important;
-        font-weight:    700 !important;
+        color: $dgrey !important;
+        background: none !important;
     }
 }
 
