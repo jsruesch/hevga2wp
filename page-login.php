@@ -39,6 +39,12 @@
                 <?php the_content(); ?>
               </div>
 
+              <a href="/shop/">
+                  <div class="row pad15 bg-dblue b-link">
+                      <h4 class="text-center text-white">Membership Options</h4>
+                  </div>
+              </a>
+
               <div class="row pad15">
                 <h5 class="text-center"><a href="/register/">Not a member? Join Here</a></h5>
               </div>
