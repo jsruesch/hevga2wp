@@ -1168,6 +1168,9 @@ a.um-link-alt {
     color: #111111 !important;
     background: none !important; }
 
+.woocommerce ul.products li.product .button:hover {
+  color: #111111 !important; }
+
 /* END: UM Overrides */
 /**
  * =========================================

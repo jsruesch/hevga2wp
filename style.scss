@@ -361,6 +361,12 @@ a.um-link-alt{
     }
 }
 
+.woocommerce ul.products li.product .button{
+    &:hover{
+        color: $black !important;
+    }
+}
+
 /* END: UM Overrides */
 
 
