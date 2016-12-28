@@ -391,7 +391,8 @@ input[type="button"].nf-element{
  * =========================================
  */
 
-.woocommerce ul.products li.product a{
+.woocommerce ul.products li.product a h3{
+    color: $dblue !important;
     &:hover{
         color: $dblue !important;
     }
