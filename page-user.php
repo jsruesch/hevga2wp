@@ -38,7 +38,7 @@
             </div>
             <a href="/shop/">
                 <div class="row pad15 bg-dblue b-link">
-                    <h4 class="text-center text-white">Membership Options</h4>
+                    <h4 class="text-center text-white">Pay Annual Membership Dues</h4>
                 </div>
             </a><!-- /The Content -->
             <?php endwhile; ?>
