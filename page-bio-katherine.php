@@ -24,7 +24,7 @@
             <p class="text-center">Communications & Outreach</p>
           </div>
         </div>
-        <a href="#">
+        <a href="mailto:katherine@hevga.org" target="_blank">
           <div class="row bg-dgreen pad10-top pad10-bot">
             <p class="text-white text-center">
               <i class="fa fa-envelope" aria-hidden="true"></i> Email Katherine
