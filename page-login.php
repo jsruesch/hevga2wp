@@ -39,9 +39,9 @@
                 <?php the_content(); ?>
               </div>
 
-              <div class="row pad15">
+              <!-- <div class="row pad15">
                 <h5 class="text-center"><a href="/register/">Not a member? Join Here</a></h5>
-              </div>
+              </div> -->
             </div><!-- /The Content -->
             <?php endwhile; ?>
             <?php else : ?>
