@@ -21,7 +21,16 @@
 
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
+
         <div class="item active">
+          <a href="/news">
+            <div class="cslide slide-bg-steamjobs"></div>
+            <div class="carousel-caption mar10-bot">
+              <p class="text-dblue">Correct the record on the importance of video game programs at our colleges and universities</p>
+            </div>
+          </a>
+        </div>
+        <div class="item">
             <div class="cslide slide-bg-06"></div>
             <div class="carousel-caption mar10-bot">
               <h3 class="text-yellow">Member Meeting -Save the Date!</h3>

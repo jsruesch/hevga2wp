@@ -913,6 +913,10 @@ table tr {
   background: url(img/slides/slide-06.png) 50% 0%;
   margin: 0 auto; }
 
+.slide-bg-steamjobs {
+  background: url(img/slides/slide-steamjobs.png) 50% 0%;
+  margin: 0 auto; }
+
 /* END: Carousel */
 /**
  * =========================================
