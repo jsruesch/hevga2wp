@@ -41,7 +41,7 @@
             </div>
           </a>
         </div>
-        <div class="item">
+        <!-- <div class="item">
           <a href="<?php echo get_template_directory_uri(); ?>/assets/AARP-and-ESA-Announce-UCSC’s-Trainwreck-Games-as-Winner-of-Social-Connection-GameJam.pdf" target="_blank">
             <div class="cslide slide-bg-02"></div>
             <div class="carousel-caption mar10-bot">
@@ -51,7 +51,7 @@
               </p>
           </div>
           </a>
-        </div>
+        </div> -->
         <div class="item">
           <a href="https://www.facebook.com/hevga/?fref=ts" target="_blank">
             <div class="cslide slide-bg-04"></div>
