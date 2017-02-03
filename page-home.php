@@ -33,9 +33,10 @@
         <div class="item">
             <div class="cslide slide-bg-06"></div>
             <div class="carousel-caption mar10-bot">
-              <h3 class="text-yellow">Member Meeting -Save the Date!</h3>
+              <h3 class="text-yellow">Member Meeting</h3>
               <p>
-              February 26 - GDC, San Francisco
+              February 26, 1:00 - 6:00pm, <br />
+              InterContinental San Francisco, Telegraph Hill, GDC
               </p>
             </div>
         </div>
