@@ -44,7 +44,7 @@
           <a href="/article_writeups/article-writeup-01/">
             <div class="cslide slide-bg-05"></div>
             <div class="carousel-caption mar10-bot">
-              <h3 class="text-yellow">HEVGA President Constance Steinkhueler</h3>
+              <h3 class="text-yellow">HEVGA President Constance Steinkuehler</h3>
               <p>
                 Spoke at at Event during Democratic National Convention on <strong>"The Future of Video Games, Interactive Media & Play</strong>"
               </p>
