@@ -485,11 +485,14 @@
             <h2 class="text-black">Partners</h2>
           </div>
           <div class="row bg-lgrey">
-            <div class="col-sm-6 pad15">
+            <div class="col-sm-4 pad15">
             <img class="center-block" src="<?php echo get_template_directory_uri(); ?>/img/sponsors/sponsor-esa.png"/>
             </div>
-            <div class="col-sm-6 pad15">
+            <div class="col-sm-4 pad15">
               <img class="center-block pad15-top" src="<?php echo get_template_directory_uri(); ?>/img/sponsors/sponsor-devry.png"/>
+            </div>
+            <div class="col-sm-4 pad15">
+              <img class="center-block pad15-top" src="<?php echo get_template_directory_uri(); ?>/img/sponsors/sponsor-ithrive.jpg"/>
             </div>
           </div>
         </div><!-- End Sponsors -->
