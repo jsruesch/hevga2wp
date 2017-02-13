@@ -127,12 +127,12 @@
           <h2 class="text-white">Read the Full Reports</h2>
         </div>
         <div class="row pad15 bg-lgrey text-center">
-          <a href="">
+          <a href="<?php echo get_template_directory_uri(); ?>/assets/priming-the-pump-2015.pdf" target="_blank">
             <strong>Priming the Pump</strong><br/>
             The Second Higher Education Video Game Alliance survey
           </a>
           <br/><br/>
-          <a href="">
+          <a href="<?php echo get_template_directory_uri(); ?>/assets/our-state-of-play-2014-15 .pdf" target="_blank">
             <strong>Our State of Play</strong><br/>
             The March 2015 survey on game-based programs in higher education.
           </a>
