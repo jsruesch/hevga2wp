@@ -129,7 +129,7 @@
             <p>
               <strong>Jonathan Elmergreen</strong><br/>
               Executive Director<br/>
-              <a href="mailto:info@higheredgames.org" target="_blank">info@higheredgames.org</a><br/>
+              <a href="mailto:jonthan@hevga.org" target="_blank">jonathan@hevga.org</a><br/>
               855.304.3842<br/>
             </p>
           </div><!-- Media Contact -->
