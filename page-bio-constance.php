@@ -20,7 +20,7 @@
           </div>
           <div class="row mar15-top">
             <h3 class="text-white text-center">Constance Steinkuehler</h3>
-            <p class="text-center"><strong>University of California-Irvine</strong></p>
+            <p class="text-center"><strong>University of California, Irvine</strong></p>
             <p class="text-center">President</p>
           </div>
         </div>

@@ -118,7 +118,7 @@
           </a> -->
           <a href="../news-links-archive-page">
             <div class="row pad15 bg-green mar20-bot b-link">
-              <h4 class="text-center text-white">News Links</h4>
+              <h4 class="text-center text-white">News Archives</h4>
             </div>
           </a><!-- Section Buttons -->
           <!-- Media Contact -->

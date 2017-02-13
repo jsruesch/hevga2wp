@@ -38,7 +38,7 @@
               </div>
               <div class="row mar15-top">
                 <h4 class="text-dblue text-center">Constance Steinkuehler</h4>
-                <p class="text-center"><strong>University of California-Irvine</strong></p>
+                <p class="text-center"><strong>University of California, Irvine</strong></p>
                 <p class="text-center">President</p>
               </div>
             </div>
@@ -90,7 +90,7 @@
               </div>
               <div class="row mar15-top">
                 <h4 class="text-dblue text-center">Katherine Isbister</h4>
-                <p class="text-center"><strong>University of California-Santa Cruz</strong></p>
+                <p class="text-center"><strong>University of California, Santa Cruz</strong></p>
                 <p class="text-center">Communications & Outreach</p>
               </div>
             </div>

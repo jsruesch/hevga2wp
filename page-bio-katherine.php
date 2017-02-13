@@ -20,7 +20,7 @@
           </div>
           <div class="row mar15-top">
             <h3 class="text-white text-center">Katherine Isbister</h3>
-            <p class="text-center"><strong>University of California-Santa Cruz</strong></p>
+            <p class="text-center"><strong>University of California, Santa Cruz</strong></p>
             <p class="text-center">Communications & Outreach</p>
           </div>
         </div>
