@@ -144,7 +144,7 @@
             <h4 class="text-white"><i class="fa fa-twitter-square text-white" aria-hidden="true"></i> Latest Tweets</h4>
           </div>
           <div class="row mar20-bot">
-            <a class="twitter-timeline" data-height="550" href="https://twitter.com/HigherEdGames">Tweets by HigherEdGames</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a class="twitter-timeline" data-height="550" href="https://twitter.com/theHEVGA">Tweets by HigherEdGames</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
           </div><!-- Latest Tweets -->
         </div>
         <!-- Sidebar -->

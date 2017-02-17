@@ -181,12 +181,12 @@
                       <?php echo do_shortcode('[hide for="logged"] <li><a href="/hevga2wp/login"><span class="text-white"><h5>Login</h5></span></a></li> [/hide]'); ?>
                       <?php echo do_shortcode('[hide for="!logged"] <li><a href="/hevga2wp/user"><span class="text-white"><h5>Profile</h5></span></a></li> [/hide]'); ?>
                       <?php echo do_shortcode('[hide for="!logged"] <li><a href="/hevga2wp/logout"><span class="text-white"><h5>Log Out</h5></span></a></li> [/hide]'); ?>
-                     
+
                       <!--<li role="separator" class="divider"></li>-->
                   </ul>
               </li>
               <li>
-                <a href="https://twitter.com/HigherEdGames" target="_blank">
+                <a href="https://twitter.com/theHEVGA" target="_blank">
                     <h4 class="text-white mar1-top">
                       <i class="fa fa-twitter-square text-lblue" aria-hidden="true"></i>
                       <span class="nav-text"> Twitter</span>
