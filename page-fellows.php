@@ -31,7 +31,7 @@
             </div>
           </a><!-- END: Eric Klopfer -->
           <!-- John Sharp -->
-          <a href="/hevga2wp/fellow-sharp/">
+          <a href="/hevga2wp/fellow-john-sharp/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">
               <div class="row">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_none.gif" class="center-block"/>
@@ -42,6 +42,42 @@
               </div>
             </div>
           </a><!-- END: John Sharp -->
+          <!-- Zoran Popovic -->
+          <a href="/hevga2wp/fellow-zoran-popovic/">
+            <div class="col-sm-6 col-md-4 pad20 ec-profile">
+              <div class="row">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_none.gif" class="center-block"/>
+              </div>
+              <div class="row mar15-top">
+                <h4 class="text-dblue text-center">Zoran Popovic</h4>
+                <p class="text-center"><strong>University of Washington</strong></p>
+              </div>
+            </div>
+          </a><!-- END: Zoran Popovic -->
+          <!-- Magy Seif El-Nasr -->
+          <a href="/hevga2wp/fellow-magy-seif-el-nasr/">
+            <div class="col-sm-6 col-md-4 pad20 ec-profile">
+              <div class="row">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_none.gif" class="center-block"/>
+              </div>
+              <div class="row mar15-top">
+                <h4 class="text-dblue text-center">Magy Seif El-Nasr</h4>
+                <p class="text-center"><strong>Northeastern University</strong></p>
+              </div>
+            </div>
+          </a><!-- END: Magy Seif El-Nasr -->
+          <!-- Frans Mäyrä -->
+          <a href="/hevga2wp/fellow-frans-mayra/">
+            <div class="col-sm-6 col-md-4 pad20 ec-profile">
+              <div class="row">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_none.gif" class="center-block"/>
+              </div>
+              <div class="row mar15-top">
+                <h4 class="text-dblue text-center">Frans Mäyrä</h4>
+                <p class="text-center"><strong>University of Tampere</strong></p>
+              </div>
+            </div>
+          </a><!-- END: Frans Mäyrä -->
         </div><!-- /.row -->
       </div><!-- END: Fellows -->
     </div>
