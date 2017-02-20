@@ -20,7 +20,7 @@
           </div>
           <div class="row mar15-top">
             <h3 class="text-white text-center">Eric Klopfer</h3>
-            <p class="text-center"><strong>Rochester Institute of Technology</strong></p>
+            <p class="text-center"><strong>MIT</strong></p>
           </div>
         </div>
         <a href="mailto:klopfer@mit.edu" target="_blank">

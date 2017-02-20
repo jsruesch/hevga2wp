@@ -19,14 +19,14 @@
             <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_none.gif" class="center-block"/>
           </div>
           <div class="row mar15-top">
-            <h3 class="text-white text-center">Eric Klopfer</h3>
-            <p class="text-center"><strong>Rochester Institute of Technology</strong></p>
+            <h3 class="text-white text-center">John Sharp</h3>
+            <p class="text-center"><strong>The New School</strong></p>
           </div>
         </div>
-        <a href="mailto:klopfer@mit.edu" target="_blank">
+        <a href="mailto:sharpj@newschool.edu" target="_blank">
           <div class="row bg-dgreen pad10-top pad10-bot">
             <p class="text-white text-center">
-              <i class="fa fa-envelope" aria-hidden="true"></i> Email Eric
+              <i class="fa fa-envelope" aria-hidden="true"></i> Email John
             </p>
           </div>
         </a>
@@ -34,7 +34,7 @@
       <!-- Bio -->
       <div class="col-md-9 bg-lgrey pad15 mar20-bot">
         <p>
-          Klopfer is Professor and Director of The Education Arcade and Scheller Teacher Education Program at MIT.  Klopfer's research focuses on the development and use of computer games and simulations for building understanding of science, technology, engineering and mathematics. The games that he works on are designed to build understanding of scientific practices and concepts as well as critical knowledge, using both mobile and web-delivered game platforms.  In the realm of simulations, Klopfer's work focuses on students understanding complex systems through, and connecting computer programming with scientific practice, critical thinking, and real-world issues.
+          John Sharp is a designer, art historian, curator and educator with over twenty five years of involvement in the creation and study of art and design. John's current design work focuses on cultural games, artgames and non-digital games. His current research addresses  game aesthetics, the history of play, and the processes of creativity. He is the Associate Professor of Games and Learning at Parsons The New School for Design. Along with Colleen Macklin, John co-directs PETLab (Prototyping, Education and Technology Lab), a research group focused on games and their design as a form of social discourse. John is also a member of the game design collective Local No. 12 along with Colleen Macklin (Associate Professor, Design & Technology, Parsons School of Design at The New School) and Eric Zimmerman (Arts Professor, New York University Game Center), a company focused on finding play in cultural practices.
         </p>
       </div>
     </div>
