@@ -23,6 +23,7 @@
             <p class="text-center"><strong>University of Washington</strong></p>
           </div>
         </div>
+      </div>
       <!-- Bio -->
       <div class="col-md-9 bg-lgrey pad15 mar20-bot">
         <p>
@@ -30,7 +31,6 @@
         </p>
       </div>
     </div>
-  </div>
 <!-- END: Main Content -->
 
 <?php get_footer(); ?>
