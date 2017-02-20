@@ -127,7 +127,7 @@
             </div>
           </a><!-- END: Mia Consalvo -->
           <!-- Katie Salen Tekinbas -->
-          <a href="/hevga2wp/fellow-mia-consalvo/">
+          <a href="/hevga2wp/fellow-katie-salen-tekinbas/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">
               <div class="row">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_none.gif" class="center-block"/>
@@ -138,6 +138,18 @@
               </div>
             </div>
           </a><!-- END: Katie Salen Tekinbas -->
+          <!-- R. Michael Young -->
+          <a href="/hevga2wp/fellow-r-michael-young/">
+            <div class="col-sm-6 col-md-4 pad20 ec-profile">
+              <div class="row">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_none.gif" class="center-block"/>
+              </div>
+              <div class="row mar15-top">
+                <h4 class="text-dblue text-center">R. Michael Young</h4>
+                <p class="text-center"><strong>University of Utah</strong></p>
+              </div>
+            </div>
+          </a><!-- END: R. Michael Young -->
         </div><!-- /.row -->
       </div><!-- END: Fellows -->
     </div>
