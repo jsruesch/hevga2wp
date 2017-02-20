@@ -1,6 +1,6 @@
 <?php
 /*
- Template Name: Fellow Bio Eric Klopfer
+ Template Name: Fellow Bio John Sharp
 */
 ?>
 
