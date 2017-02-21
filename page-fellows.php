@@ -186,6 +186,18 @@
               </div>
             </div>
           </a><!-- END: Eric Zimmerman -->
+          <!-- Janet H. Murray -->
+          <a href="/hevga2wp/fellow-janet-h-murray/">
+            <div class="col-sm-6 col-md-4 pad20 ec-profile">
+              <div class="row">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_eric_z.png" class="center-block"/>
+              </div>
+              <div class="row mar15-top">
+                <h4 class="text-dblue text-center">Janet H. Murray</h4>
+                <p class="text-center"><strong>Georgia Tech</strong></p>
+              </div>
+            </div>
+          </a><!-- END: Janet H. Murray -->
         </div><!-- /.row -->
       </div><!-- END: Fellows -->
     </div>
