@@ -182,7 +182,7 @@
               </div>
               <div class="row mar15-top">
                 <h4 class="text-dblue text-center">Eric Zimmerman</h4>
-                <p class="text-center"><strong>NYU Game Center, Tisch School of the Arts</strong></p>
+                <p class="text-center"><strong>NYU</strong></p>
               </div>
             </div>
           </a><!-- END: Eric Zimmerman -->

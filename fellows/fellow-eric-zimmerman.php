@@ -20,7 +20,7 @@
           </div>
           <div class="row mar15-top">
             <h3 class="text-white text-center">Eric Zimmerman</h3>
-            <p class="text-center"><strong>NYU Game Center, Tisch School of the Arts</strong></p>
+            <p class="text-center"><strong>NYU</strong></p>
           </div>
         </div>
         <a href="mailto:e@ericzimmerman.com" target="_blank">
