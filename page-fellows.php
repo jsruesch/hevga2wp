@@ -190,7 +190,7 @@
           <a href="/hevga2wp/fellow-janet-h-murray/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">
               <div class="row">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_eric_z.png" class="center-block"/>
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_none.gif" class="center-block"/>
               </div>
               <div class="row mar15-top">
                 <h4 class="text-dblue text-center">Janet H. Murray</h4>
@@ -198,6 +198,18 @@
               </div>
             </div>
           </a><!-- END: Janet H. Murray -->
+          <!-- Scot Osterweil -->
+          <a href="/hevga2wp/fellow-janet-h-murray/">
+            <div class="col-sm-6 col-md-4 pad20 ec-profile">
+              <div class="row">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_scot.png" class="center-block"/>
+              </div>
+              <div class="row mar15-top">
+                <h4 class="text-dblue text-center">Scot Osterweil</h4>
+                <p class="text-center"><strong>MIT</strong></p>
+              </div>
+            </div>
+          </a><!-- END: Scot Osterweil -->
         </div><!-- /.row -->
       </div><!-- END: Fellows -->
     </div>
