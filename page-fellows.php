@@ -91,7 +91,7 @@
             </div>
           </a><!-- END: Tracy Fullerton -->
           <!-- Jim Gee -->
-          <a href="/hevga2wp/fellow-tracy-fullerton/">
+          <a href="/hevga2wp/fellow-jim-gee/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">
               <div class="row">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_none.gif" class="center-block"/>
@@ -127,7 +127,7 @@
             </div>
           </a><!-- END: Robin Hunicke -->
           <!-- Henry Jenkins -->
-          <a href="/hevga2wp/fellow-robin-hunicke/">
+          <a href="/hevga2wp/fellow-henry-jenkins/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">
               <div class="row">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_henry.png" class="center-block"/>
@@ -258,6 +258,18 @@
               </div>
             </div>
           </a><!-- END: Brenda Romero -->
+          <!-- Jesse Schell -->
+          <a href="/hevga2wp/fellow-jesse-schell/">
+            <div class="col-sm-6 col-md-4 pad20 ec-profile">
+              <div class="row">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_none.gif" class="center-block"/>
+              </div>
+              <div class="row mar15-top">
+                <h4 class="text-dblue text-center">Jesse Schell</h4>
+                <p class="text-center"><strong>n/a</strong></p>
+              </div>
+            </div>
+          </a><!-- END: Jesse Schell -->
           <!-- Magy Seif El-Nasr -->
           <a href="/hevga2wp/fellow-magy-seif-el-nasr/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">
