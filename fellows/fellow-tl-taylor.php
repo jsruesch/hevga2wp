@@ -23,7 +23,7 @@
             <p class="text-center"><strong>MIT</strong></p>
           </div>
         </div>
-        <!-- <a href="mailto:cp@cpandfriends.com" target="_blank">
+        <!-- <a href="mailto:tl@tltaylor.com" target="_blank">
           <div class="row bg-dgreen pad10-top pad10-bot">
             <p class="text-white text-center">
               <i class="fa fa-envelope" aria-hidden="true"></i> Email Celia

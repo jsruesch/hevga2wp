@@ -22,7 +22,7 @@
             <p class="text-center"><strong>Uppsala University</strong></p>
           </div>
         </div>
-        <!-- <a href="mailto:klopfer@mit.edu" target="_blank">
+        <!-- <a href="mailto:annika.waern@im.uu.se" target="_blank">
           <div class="row bg-dgreen pad10-top pad10-bot">
             <p class="text-white text-center">
               <i class="fa fa-envelope" aria-hidden="true"></i> Email Annika
