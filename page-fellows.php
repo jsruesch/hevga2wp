@@ -198,6 +198,18 @@
               </div>
             </div>
           </a><!-- END: Colleen Macklin -->
+          <!-- Michael Mataes -->
+          <a href="/hevga2wp/fellow-michael-mataes/">
+            <div class="col-sm-6 col-md-4 pad20 ec-profile">
+              <div class="row">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_none.gif" class="center-block"/>
+              </div>
+              <div class="row mar15-top">
+                <h4 class="text-dblue text-center">Michael Mataes</h4>
+                <p class="text-center"><strong>n/a</strong></p>
+              </div>
+            </div>
+          </a><!-- END: Michael Mataes -->
           <!-- Frans Mäyrä -->
           <a href="/hevga2wp/fellow-frans-mayra/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">
