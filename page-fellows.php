@@ -101,7 +101,19 @@
                 <p class="text-center"><strong>University of Southern California</strong></p>
               </div>
             </div>
-          </a><!-- END: Henry Jenkins -->
+          </a><!-- END: Jesper Juul -->
+          <!-- Jim Whitehead -->
+          <a href="/hevga2wp/fellow-jesper-juul/">
+            <div class="col-sm-6 col-md-4 pad20 ec-profile">
+              <div class="row">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_none.gif" class="center-block"/>
+              </div>
+              <div class="row mar15-top">
+                <h4 class="text-dblue text-center">Jesper Juul</h4>
+                <p class="text-center"><strong>N/A</strong></p>
+              </div>
+            </div>
+          </a><!-- END: Jesper Juul -->
           <!-- Eric Klopfer -->
           <a href="/hevga2wp/fellow-eric-klopfer/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">
