@@ -917,6 +917,10 @@ table tr {
   background: url(img/slides/slide-steamjobs.png) 50% 0%;
   margin: 0 auto; }
 
+.slide-mixer-banner {
+  background: url(img/slides/slide-mixer-banner.png) 50% 0%;
+  margin: 0 auto; }
+
 /* END: Carousel */
 /**
  * =========================================

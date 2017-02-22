@@ -23,6 +23,12 @@
       <div class="carousel-inner" role="listbox">
 
         <div class="item active">
+            <div class="cslide slide-mixer-banner"></div>
+            <div class="carousel-caption mar10-bot">
+              <h3 class="text-yellow"><span class="text-red">Feb 27, 6:30-8:30pm</span> <span class="text-green">West Hall Level 3, GDC</span></h3>
+            </div>
+        </div>
+        <div class="item">
           <a href="/news">
             <div class="cslide slide-bg-steamjobs"></div>
             <div class="carousel-caption mar10-bot">
@@ -40,7 +46,7 @@
               </p>
             </div>
         </div>
-        <div class="item">
+        <!-- <div class="item">
           <a href="/article_writeups/article-writeup-01/">
             <div class="cslide slide-bg-05"></div>
             <div class="carousel-caption mar10-bot">
@@ -50,7 +56,7 @@
               </p>
             </div>
           </a>
-        </div>
+        </div> -->
         <!-- <div class="item">
           <a href="<?php echo get_template_directory_uri(); ?>/assets/AARP-and-ESA-Announce-UCSC’s-Trainwreck-Games-as-Winner-of-Social-Connection-GameJam.pdf" target="_blank">
             <div class="cslide slide-bg-02"></div>
