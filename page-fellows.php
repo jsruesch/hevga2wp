@@ -42,6 +42,18 @@
               </div>
             </div>
           </a><!-- END: Mia Consalvo -->
+          <!-- Mary Flanagan -->
+          <a href="/hevga2wp/fellow-mary-flanagan/">
+            <div class="col-sm-6 col-md-4 pad20 ec-profile">
+              <div class="row">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_mary.png" class="center-block"/>
+              </div>
+              <div class="row mar15-top">
+                <h4 class="text-dblue text-center">Mary Flanagan</h4>
+                <p class="text-center"><strong>Dartmouth College</strong></p>
+              </div>
+            </div>
+          </a><!-- END: Mia Consalvo -->
           <!-- Tracy Fullerton -->
           <a href="/hevga2wp/fellow-tracy-fullerton/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">
