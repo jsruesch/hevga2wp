@@ -102,6 +102,18 @@
               </div>
             </div>
           </a><!-- END: Jim Gee -->
+          <!-- Ian Horswill -->
+          <a href="/hevga2wp/fellow-ian-horswill/">
+            <div class="col-sm-6 col-md-4 pad20 ec-profile">
+              <div class="row">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_none.gif" class="center-block"/>
+              </div>
+              <div class="row mar15-top">
+                <h4 class="text-dblue text-center">Ian Horswill</h4>
+                <p class="text-center"><strong>n/a</strong></p>
+              </div>
+            </div>
+          </a><!-- END: Ian Horswill -->
           <!-- Robin Hunicke -->
           <a href="/hevga2wp/fellow-robin-hunicke/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">

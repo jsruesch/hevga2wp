@@ -1,6 +1,6 @@
 <?php
 /*
- Template Name: Fellow Bio Kurt Squire
+ Template Name: Fellow Bio Ian Horswill
 */
 ?>
 
@@ -19,14 +19,14 @@
             <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_none.gif" class="center-block"/>
           </div>
           <div class="row mar15-top">
-            <h3 class="text-white text-center">Kurt Squire</h3>
+            <h3 class="text-white text-center">Ian Horswill</h3>
             <p class="text-center"><strong>N/A</strong></p>
           </div>
         </div>
-        <!-- <a href="mailto:kurt.squire@gmail.com" target="_blank">
+        <!-- <a href="mailto:ian@northwestern.edu" target="_blank">
           <div class="row bg-dgreen pad10-top pad10-bot">
             <p class="text-white text-center">
-              <i class="fa fa-envelope" aria-hidden="true"></i> Email Kurt
+              <i class="fa fa-envelope" aria-hidden="true"></i> Email Ian
             </p>
           </div>
         </a> -->
