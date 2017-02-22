@@ -126,6 +126,18 @@
               </div>
             </div>
           </a><!-- END: Scot Osterweil -->
+          <!-- Celia Pearce -->
+          <a href="/hevga2wp/fellow-celia-pearce/">
+            <div class="col-sm-6 col-md-4 pad20 ec-profile">
+              <div class="row">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_celia.png" class="center-block"/>
+              </div>
+              <div class="row mar15-top">
+                <h4 class="text-dblue text-center">Celia Pearce</h4>
+                <p class="text-center"><strong>Northeastern University</strong></p>
+              </div>
+            </div>
+          </a><!-- END: Celia Pearce -->
           <!-- Zoran Popovic -->
           <a href="/hevga2wp/fellow-zoran-popovic/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">
@@ -174,6 +186,18 @@
               </div>
             </div>
           </a><!-- END: John Sharp -->
+          <!-- T.L. Taylor -->
+          <a href="/hevga2wp/fellow-tl-taylor/">
+            <div class="col-sm-6 col-md-4 pad20 ec-profile">
+              <div class="row">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_none.gif" class="center-block"/>
+              </div>
+              <div class="row mar15-top">
+                <h4 class="text-dblue text-center">T.L. Taylor</h4>
+                <p class="text-center"><strong>MIT</strong></p>
+              </div>
+            </div>
+          </a><!-- END: T.L. Taylor -->
           <!-- Katie Salen Tekinbas -->
           <a href="/hevga2wp/fellow-katie-salen-tekinbas/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">
