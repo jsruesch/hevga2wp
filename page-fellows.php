@@ -210,6 +210,18 @@
               </div>
             </div>
           </a><!-- END: Scot Osterweil -->
+          <!-- Ian Bogost -->
+          <a href="/hevga2wp/fellow-ian-bogost/">
+            <div class="col-sm-6 col-md-4 pad20 ec-profile">
+              <div class="row">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_ian.png" class="center-block"/>
+              </div>
+              <div class="row mar15-top">
+                <h4 class="text-dblue text-center">Ian Bogost</h4>
+                <p class="text-center"><strong>Georgia Institute of Technology</strong></p>
+              </div>
+            </div>
+          </a><!-- END: Ian Bogost -->
         </div><!-- /.row -->
       </div><!-- END: Fellows -->
     </div>
