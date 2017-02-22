@@ -23,13 +23,13 @@
             <p class="text-center"><strong>Georgia Tech</strong></p>
           </div>
         </div>
-        <a href="mailto:jmurray@gatech.edu" target="_blank">
+        <!-- <a href="mailto:jmurray@gatech.edu" target="_blank">
           <div class="row bg-dgreen pad10-top pad10-bot">
             <p class="text-white text-center">
               <i class="fa fa-envelope" aria-hidden="true"></i> Email Janet
             </p>
           </div>
-        </a>
+        </a> -->
       </div><!-- /Andrew -->
       <!-- Bio -->
       <div class="col-md-9 bg-lgrey pad15 mar20-bot">

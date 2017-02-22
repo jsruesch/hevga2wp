@@ -22,13 +22,13 @@
             <p class="text-center"><strong>University of Utah</strong></p>
           </div>
         </div>
-        <a href="mailto:young@eae.utah.edu" target="_blank">
+        <!-- <a href="mailto:young@eae.utah.edu" target="_blank">
           <div class="row bg-dgreen pad10-top pad10-bot">
             <p class="text-white text-center">
               <i class="fa fa-envelope" aria-hidden="true"></i> Email R. Michael
             </p>
           </div>
-        </a>
+        </a> -->
       </div>
       <!-- Bio -->
       <div class="col-md-9 bg-lgrey pad15 mar20-bot">

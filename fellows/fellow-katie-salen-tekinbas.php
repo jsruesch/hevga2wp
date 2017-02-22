@@ -22,13 +22,13 @@
             <p class="text-center"><strong>Connected Camps</strong></p>
           </div>
         </div>
-        <a href="mailto:katie.salen@gmail.com" target="_blank">
+        <!-- <a href="mailto:katie.salen@gmail.com" target="_blank">
           <div class="row bg-dgreen pad10-top pad10-bot">
             <p class="text-white text-center">
               <i class="fa fa-envelope" aria-hidden="true"></i> Email Katie
             </p>
           </div>
-        </a>
+        </a> -->
       </div>
       <!-- Bio -->
       <div class="col-md-9 bg-lgrey pad15 mar20-bot">
