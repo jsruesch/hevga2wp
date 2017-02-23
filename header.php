@@ -168,8 +168,8 @@
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
               <li><a href="/hevga2wp/about" class="text-white">About</a></li>
-              <li><a href="/2wp/membership" class="text-white">Membership</a></li>
               <!-- <li><a href="/2wp/fellows" class="text-white">Fellows Program</a></li> -->
+              <li><a href="/2wp/membership" class="text-white">Membership</a></li>
               <!-- <li><a href="/hevga2wp/members" class="text-white">Members</a></li> -->
               <li><a href="/hevga2wp/reports" class="text-white">Reports</a></li>
               <li><a href="/hevga2wp/news" class="text-white">News</a></li>
