@@ -26,7 +26,7 @@
               </div>
               <div class="row mar15-top">
                 <h4 class="text-dblue text-center">Espen Aarseth</h4>
-                <p class="text-center"><strong>N/A</strong></p>
+                <p class="text-center"><strong>The IT University of Copenhagen</strong></p>
               </div>
             </div>
           </a><!-- END: Espen Aarseth -->

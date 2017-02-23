@@ -20,7 +20,7 @@
           </div>
           <div class="row mar15-top">
             <h3 class="text-white text-center">Espen Aarseth</h3>
-            <p class="text-center"><strong>N/A</strong></p>
+            <p class="text-center"><strong>The IT University of Copenhagen</strong></p>
           </div>
         </div>
         <!-- <a href="mailto:aarseth@itu.dk" target="_blank">
@@ -34,7 +34,7 @@
       <!-- Bio -->
       <div class="col-md-9 bg-lgrey pad15 mar20-bot">
         <p>
-          n/a
+          Espen Aarseth is professor of game studies and head of the Center for Computer Games Research at the IT University of Copenhagen. He holds a Cand.Philol. in comparative literature and a Dr.Art. in humanistic informatics, both from the University of Bergen. He is co-founding Editor-in-Chief of the journal Game Studies (2001-), and an ERC Advanced Grant Laureate for the project MSG – Making Sense of Games (2016-2021).
         </p>
       </div>
     </div>
