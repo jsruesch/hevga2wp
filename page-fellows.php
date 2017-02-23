@@ -110,7 +110,7 @@
               </div>
               <div class="row mar15-top">
                 <h4 class="text-dblue text-center">Ian Horswill</h4>
-                <p class="text-center"><strong>n/a</strong></p>
+                <p class="text-center"><strong>Northwestern University</strong></p>
               </div>
             </div>
           </a><!-- END: Ian Horswill -->

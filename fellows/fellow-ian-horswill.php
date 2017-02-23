@@ -20,7 +20,7 @@
           </div>
           <div class="row mar15-top">
             <h3 class="text-white text-center">Ian Horswill</h3>
-            <p class="text-center"><strong>N/A</strong></p>
+            <p class="text-center"><strong>Northwestern University</strong></p>
           </div>
         </div>
         <!-- <a href="mailto:ian@northwestern.edu" target="_blank">
@@ -34,7 +34,7 @@
       <!-- Bio -->
       <div class="col-md-9 bg-lgrey pad15 mar20-bot">
         <p>
-          n/a
+          Ian Horswill is an Associate Professor of Computer Science at Northwestern University, where he was the co-founder of Northwestern’s Animate Arts Program. His research interests include interactive entertainment technologies and cognitive modeling for virtual characters, particularly modeling of emotion and personality. He received his PhD in Computer Science from the Massachusetts Institute of Technology in 1993.
         </p>
       </div>
     </div>
