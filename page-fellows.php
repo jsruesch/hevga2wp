@@ -106,7 +106,7 @@
           <a href="/hevga2wp/fellow-ian-horswill/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">
               <div class="row">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_none.gif" class="center-block"/>
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_ian_h.png" class="center-block"/>
               </div>
               <div class="row mar15-top">
                 <h4 class="text-dblue text-center">Ian Horswill</h4>
@@ -190,7 +190,7 @@
           <a href="/hevga2wp/fellow-colleen-macklin/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">
               <div class="row">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_none.gif" class="center-block"/>
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_colleen.png" class="center-block"/>
               </div>
               <div class="row mar15-top">
                 <h4 class="text-dblue text-center">Colleen Macklin</h4>
