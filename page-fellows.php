@@ -194,7 +194,7 @@
               </div>
               <div class="row mar15-top">
                 <h4 class="text-dblue text-center">Colleen Macklin</h4>
-                <p class="text-center"><strong>N/A</strong></p>
+                <p class="text-center"><strong>Parsons School of Design</strong></p>
               </div>
             </div>
           </a><!-- END: Colleen Macklin -->
@@ -374,7 +374,7 @@
               </div>
               <div class="row mar15-top">
                 <h4 class="text-dblue text-center">Jim Whitehead</h4>
-                <p class="text-center"><strong>N/A</strong></p>
+                <p class="text-center"><strong>University of California, Santa Cruz</strong></p>
               </div>
             </div>
           </a><!-- END: Jim Whitehead -->

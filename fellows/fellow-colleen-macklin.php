@@ -20,7 +20,7 @@
           </div>
           <div class="row mar15-top">
             <h3 class="text-white text-center">Colleen Macklin</h3>
-            <p class="text-center"><strong>N/A</strong></p>
+            <p class="text-center"><strong>Parsons School of Design</strong></p>
           </div>
         </div>
         <!-- <a href="mailto:Colleenmacklin@gmail.com " target="_blank">
@@ -34,7 +34,7 @@
       <!-- Bio -->
       <div class="col-md-9 bg-lgrey pad15 mar20-bot">
         <p>
-          n/a
+          Colleen Macklin is a game designer, an Associate Professor in the school of Art, Media and Technology at Parsons The New School for Design and founder and co-director of PETLab (Prototyping Education and Technology Lab), a lab that develops games for experimental learning and social engagement. PETLab projects include disaster preparedness games and sports with the Red Cross, the urban activist game Re:Activism and the physical/fiscal sport Budgetball. PETLab has also published game design curricula for the Boys and Girls Club. She is a member of the game design collective Local No. 12, best known for their social card game, the Metagame. Her work has been shown at Come Out and Play, UCLA Art|Sci Center, The Whitney Museum for American Art and Creative Time.
         </p>
       </div>
     </div>
