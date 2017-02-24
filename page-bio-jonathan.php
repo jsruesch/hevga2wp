@@ -21,7 +21,7 @@
           <div class="row mar15-top">
             <h3 class="text-white text-center">Jonathan Elmergreen</h3>
             <p class="text-center"><strong>University of Wisconsin-Madison</strong></p>
-            <p class="text-center">Interim Executive Director</p>
+            <p class="text-center">Executive Director</p>
           </div>
         </div>
         <a href="mailto:jonathan@hevga.org" target="_blank">
