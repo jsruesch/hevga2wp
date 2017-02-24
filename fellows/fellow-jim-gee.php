@@ -19,7 +19,7 @@
             <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_jim_g.png" class="center-block"/>
           </div>
           <div class="row mar15-top">
-            <h3 class="text-white text-center">Jim Gee</h3>
+            <h3 class="text-white text-center">James Paul Gee</h3>
             <p class="text-center"><strong>Arizona State University</strong></p>
           </div>
         </div>
