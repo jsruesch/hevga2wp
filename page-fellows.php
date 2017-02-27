@@ -361,7 +361,7 @@
               </div>
               <div class="row mar15-top">
                 <h4 class="text-dblue text-center">Kurt Squire</h4>
-                <p class="text-center"><strong>n/a</strong></p>
+                <p class="text-center"><strong>University of California, Irvine</strong></p>
               </div>
             </div>
           </a><!-- END: Kurt Squire -->
