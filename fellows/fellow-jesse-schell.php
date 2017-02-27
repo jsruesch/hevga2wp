@@ -20,7 +20,7 @@
           </div>
           <div class="row mar15-top">
             <h3 class="text-white text-center">Jesse Schell</h3>
-            <p class="text-center"><strong>N/A</strong></p>
+            <p class="text-center"><strong>Carnegie Mellon University</strong></p>
           </div>
         </div>
         <!-- <a href="mailto:Jns@cs.cmu.edu" target="_blank">

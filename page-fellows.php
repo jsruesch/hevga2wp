@@ -301,7 +301,7 @@
               </div>
               <div class="row mar15-top">
                 <h4 class="text-dblue text-center">Jesse Schell</h4>
-                <p class="text-center"><strong>n/a</strong></p>
+                <p class="text-center"><strong>Carnegie Mellon University</strong></p>
               </div>
             </div>
           </a><!-- END: Jesse Schell -->
