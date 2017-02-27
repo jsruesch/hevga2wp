@@ -98,7 +98,7 @@
               </div>
               <div class="row mar15-top">
                 <h4 class="text-dblue text-center">James Paul Gee</h4>
-                <p class="text-center"><strong>n/a</strong></p>
+                <p class="text-center"><strong>Arizona State University</strong></p>
               </div>
             </div>
           </a><!-- END: Jim Gee -->
@@ -146,7 +146,7 @@
               </div>
               <div class="row mar15-top">
                 <h4 class="text-dblue text-center">Jesper Juul</h4>
-                <p class="text-center"><strong>Royal Danish Academy of Fine Arts, School of Design</strong></p>
+                <p class="text-center"><strong>Royal Danish Academy of Fine Arts</strong></p>
               </div>
             </div>
           </a><!-- END: Jesper Juul -->

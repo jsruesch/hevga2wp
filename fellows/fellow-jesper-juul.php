@@ -20,7 +20,7 @@
           </div>
           <div class="row mar15-top">
             <h3 class="text-white text-center">Jesper Juul</h3>
-            <p class="text-center"><strong>Royal Danish Academy of Fine Arts, School of Design</strong></p>
+            <p class="text-center"><strong>Royal Danish Academy of Fine Arts</strong></p>
           </div>
         </div>
         <!-- <a href="mailto:j@jesperjuul.net " target="_blank">
