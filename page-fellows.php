@@ -12,6 +12,17 @@
 -->
   <div class="container-fluid mc">
     <div class="container">
+      <div class="row mar20-bot">
+        <h3 class="mar10-bot">Washington, DC – February 27, 2017</h3>
+        <p class="mar20-bot">
+          Today, The Higher Education Video Game Alliance (HEVGA) proudly announces their Fellows program, inducting 30 scholars into their inaugural cohort of leaders in games in higher education. Established in 2017, The Higher Education Video Game Alliance Fellows program recognizes senior scholars in the games domain who have made significant contribution to the field in design, theory, or research. HEVGA Fellows are elected by their peers for outstanding contributions to games-based research and design in higher education. Fellows serve as integral ambassadors for the organization and are inducted as lifetime members. HEVGA is committed to providing a robust network of resources and support to its members and member institutions, whose contributions are essential to the success of the field and the international games community.
+        </p>
+
+        <h3 class="mar10-bot">Becoming a Fellow</h3>
+        <p>
+          Because fellowship is achieved by election, there is no fellowship application process and nominations may only be submitted and confirmed by current Fellows. Consideration of a candidate begins with their nomination, followed by an extensive and careful vetting process that results in a final ballot of current Fellows at HEVGA's annual meeting.
+        </p>
+      </div>
       <!-- Fellows -->
       <div class="row mar20-bot">
         <div class="row pad15 bg-lblue">

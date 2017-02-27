@@ -17,11 +17,21 @@
         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
         <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
       </ol>
 
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
 
+        <!-- <div class="item active">
+          <a href="/hevga2wp/fellows/">
+            <div class="cslide slide-fellows-banner"></div>
+            <div class="carousel-caption mar10-bot">
+              <h3 class="text-yellow">Welcome 2017 Fellows!</h3>
+            </div>
+          </a>
+        </div> -->
         <div class="item active">
             <div class="cslide slide-mixer-banner"></div>
             <div class="carousel-caption mar10-bot">

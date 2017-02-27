@@ -921,6 +921,10 @@ table tr {
   background: url(img/slides/slide-mixer-banner.png) 50% 0%;
   margin: 0 auto; }
 
+.slide-fellows-banner {
+  background: url(img/slides/slide-fellows-announcement.png) 50% 0%;
+  margin: 0 auto; }
+
 /* END: Carousel */
 /**
  * =========================================
