@@ -206,7 +206,7 @@
               </div>
               <div class="row mar15-top">
                 <h4 class="text-dblue text-center">Michael Mataes</h4>
-                <p class="text-center"><strong>n/a</strong></p>
+                <p class="text-center"><strong>University of California, Santa Cruz</strong></p>
               </div>
             </div>
           </a><!-- END: Michael Mataes -->

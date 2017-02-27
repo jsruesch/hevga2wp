@@ -20,7 +20,7 @@
           </div>
           <div class="row mar15-top">
             <h3 class="text-white text-center">Michael Mataes</h3>
-            <p class="text-center"><strong>N/A</strong></p>
+            <p class="text-center"><strong>University of California, Santa Cruz</strong></p>
           </div>
         </div>
         <!-- <a href="mailto:michaelm@soe.ucsc.edu" target="_blank">
@@ -34,7 +34,7 @@
       <!-- Bio -->
       <div class="col-md-9 bg-lgrey pad15 mar20-bot">
         <p>
-          n/a
+          Michael is recognized internationally as a leader in AI-based interactive entertainment. He is the founding chair of the new Department of Computational Media at UC Santa Cruz, a department which grew out of Computer Science and combines CS, art and design to invent new forms of interactive experiences. He founded and co-directs the Expressive Intelligence Studio, one of the largest technical game research groups in the world and is also the founding director of the Center for Games and Playable Media at UC Santa Cruz. Credits include 'Prom Week', a social simulation-based interactive story and puzzle game, and 'Façade', the world's first AI-based interactive drama. Michael has given numerous keynote addresses and paper presentations at conferences worldwide. He received his Ph.D. in Computer Science from Carnegie Mellon University.
         </p>
       </div>
     </div>
