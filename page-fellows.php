@@ -174,7 +174,7 @@
               </div>
             </div>
           </a><!-- END: Frank Lantz -->
-          <!-- Brenda Laurel -->
+          <!-- Brenda Laurel
           <a href="/hevga2wp/fellow-brenda-laurel/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">
               <div class="row">
@@ -185,7 +185,7 @@
                 <p class="text-center"><strong>n/a</strong></p>
               </div>
             </div>
-          </a><!-- END: Brenda Laurel -->
+          </a> END: Brenda Laurel -->
           <!--Colleen Macklin -->
           <a href="/hevga2wp/fellow-colleen-macklin/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">
