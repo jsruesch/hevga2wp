@@ -170,7 +170,7 @@
               </div>
               <div class="row mar15-top">
                 <h4 class="text-dblue text-center">Frank Lantz</h4>
-                <p class="text-center"><strong>n/a</strong></p>
+                <p class="text-center"><strong>NYU Game Center</strong></p>
               </div>
             </div>
           </a><!-- END: Frank Lantz -->
