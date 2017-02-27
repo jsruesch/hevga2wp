@@ -91,7 +91,7 @@
             </div>
           </a><!-- END: Tracy Fullerton -->
           <!-- Jim Gee -->
-          <a href="/hevga2wp/fellow-jim-gee/">
+          <a href="/hevga2wp/fellow-james-paul-gee/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">
               <div class="row">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_jim_g.png" class="center-block"/>
@@ -142,7 +142,7 @@
           <a href="/hevga2wp/fellow-jesper-juul/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">
               <div class="row">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_none.gif" class="center-block"/>
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_jesper.png" class="center-block"/>
               </div>
               <div class="row mar15-top">
                 <h4 class="text-dblue text-center">Jesper Juul</h4>
@@ -166,7 +166,7 @@
           <a href="/hevga2wp/fellow-frank-lantz/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">
               <div class="row">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_none.gif" class="center-block"/>
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_frank.png" class="center-block"/>
               </div>
               <div class="row mar15-top">
                 <h4 class="text-dblue text-center">Frank Lantz</h4>
