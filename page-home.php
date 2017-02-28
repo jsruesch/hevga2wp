@@ -24,15 +24,15 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
 
-        <!-- <div class="item active">
+        <div class="item active">
           <a href="/hevga2wp/fellows/">
             <div class="cslide slide-fellows-banner"></div>
             <div class="carousel-caption mar10-bot">
               <h3 class="text-yellow">Welcome 2017 Fellows!</h3>
             </div>
           </a>
-        </div> -->
-        <div class="item active">
+        </div>
+        <div class="item">
             <div class="cslide slide-mixer-banner"></div>
             <div class="carousel-caption mar10-bot">
               <h3 class="text-yellow"><span class="text-red">Feb 27, 6:30-8:30pm</span> <span class="text-green">West Hall Level 3, GDC</span></h3>
