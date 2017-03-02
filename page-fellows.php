@@ -433,7 +433,7 @@
               </div>
             </div>
           </a><!-- /Drew -->
-          <!-- Jonathan -->
+          <!-- Jonathan
           <a href="/hevga2wp/bio-jonathan/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">
               <div class="row">
@@ -444,7 +444,7 @@
                 <p class="text-center"><strong>University of Wisconsin-Madison</strong></p>
               </div>
             </div>
-          </a><!-- /Jonathan -->
+          </a>/Jonathan -->
           <!-- Katherine -->
           <a href="/hevga2wp/bio-katherine/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">
@@ -480,7 +480,7 @@
                 <p class="text-center"><strong>University of California, Irvine</strong></p>
               </div>
             </div>
-          </a><!-- /Constance -->          
+          </a><!-- /Constance -->
         </div>
       </div><!-- END: Founding Fellows -->
     </div>
