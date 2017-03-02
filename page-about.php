@@ -43,7 +43,7 @@
               </div>
             </div>
           </a><!-- /Constance -->
-          <!-- Tracy -->
+          <!-- Tracy
           <a href="/hevga2wp/bio-tracy/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">
               <div class="row">
@@ -55,7 +55,7 @@
                 <p class="text-center">Vice President</p>
               </div>
             </div>
-          </a><!-- /Tracy -->
+          </a> /Tracy -->
           <!-- Andrew -->
           <a href="/hevga2wp/bio-andrew/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">
@@ -81,7 +81,7 @@
                 <p class="text-center">Secretary</p>
               </div>
             </div>
-          </a<!-- /Drew -->
+          </a><!-- /Drew -->
           <!-- Katherine -->
           <a href="/hevga2wp/bio-katherine/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">

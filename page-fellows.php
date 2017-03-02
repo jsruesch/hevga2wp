@@ -415,6 +415,74 @@
           </a><!-- END: Eric Zimmerman -->
         </div><!-- /.row -->
       </div><!-- END: Fellows -->
+
+      <div class="row mar20-bot">
+        <div class="row pad15 bg-green">
+          <h2 class="text-white">Founding Fellows</h2>
+        </div>
+        <div class="row bg-lgrey">
+          <!-- Drew -->
+          <a href="/hevga2wp/bio-drew/">
+            <div class="col-sm-6 col-md-4 pad20 ec-profile">
+              <div class="row">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_drew.png" class="center-block"/>
+              </div>
+              <div class="row mar15-top">
+                <h4 class="text-dblue text-center">Drew Davidson</h4>
+                <p class="text-center"><strong>Carnegie Mellow University</strong></p>
+              </div>
+            </div>
+          </a><!-- /Drew -->
+          <!-- Jonathan -->
+          <a href="/hevga2wp/bio-jonathan/">
+            <div class="col-sm-6 col-md-4 pad20 ec-profile">
+              <div class="row">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_jonathan.png" class="center-block"/>
+              </div>
+              <div class="row mar15-top">
+                <h4 class="text-dblue text-center">Jonathan Elmergreen</h4>
+                <p class="text-center"><strong>University of Wisconsin-Madison</strong></p>
+              </div>
+            </div>
+          </a><!-- /Jonathan -->
+          <!-- Katherine -->
+          <a href="/hevga2wp/bio-katherine/">
+            <div class="col-sm-6 col-md-4 pad20 ec-profile">
+              <div class="row">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_katherine.png" class="center-block"/>
+              </div>
+              <div class="row mar15-top">
+                <h4 class="text-dblue text-center">Katherine Isbister</h4>
+                <p class="text-center"><strong>University of California, Santa Cruz</strong></p>
+              </div>
+            </div>
+          </a><!-- /Katherine -->
+          <!-- Andrew -->
+          <a href="/hevga2wp/bio-andrew/">
+            <div class="col-sm-6 col-md-4 pad20 ec-profile">
+              <div class="row">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_andrew.png" class="center-block"/>
+              </div>
+              <div class="row mar15-top">
+                <h4 class="text-dblue text-center">Andrew Phelps</h4>
+                <p class="text-center"><strong>Rochester Institute of Technology</strong></p>
+              </div>
+            </div>
+          </a><!-- /Andrew -->
+          <!-- Constance -->
+          <a href="/hevga2wp/bio-constance/">
+            <div class="col-sm-6 col-md-4 pad20 ec-profile">
+              <div class="row">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_constance.png" class="center-block"/>
+              </div>
+              <div class="row mar15-top">
+                <h4 class="text-dblue text-center">Constance Steinkuehler</h4>
+                <p class="text-center"><strong>University of California, Irvine</strong></p>
+              </div>
+            </div>
+          </a><!-- /Constance -->          
+        </div>
+      </div><!-- END: Founding Fellows -->
     </div>
   </div>
 <!-- END: Main Content -->
