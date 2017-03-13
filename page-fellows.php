@@ -89,18 +89,6 @@
               </div>
             </div>
           </a><!-- END: Mia Consalvo -->
-          <!-- Tracy Fullerton -->
-          <a href="/hevga2wp/fellow-tracy-fullerton/">
-            <div class="col-sm-6 col-md-4 pad20 ec-profile">
-              <div class="row">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_tracy.png" class="center-block"/>
-              </div>
-              <div class="row mar15-top">
-                <h4 class="text-dblue text-center">Tracy Fullerton</h4>
-                <p class="text-center"><strong>USC Games</strong></p>
-              </div>
-            </div>
-          </a><!-- END: Tracy Fullerton -->
           <!-- Jim Gee -->
           <a href="/hevga2wp/fellow-james-paul-gee/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">
@@ -433,6 +421,18 @@
               </div>
             </div>
           </a><!-- /Drew -->
+          <!-- Tracy Fullerton -->
+          <a href="/hevga2wp/fellow-tracy-fullerton/">
+            <div class="col-sm-6 col-md-4 pad20 ec-profile">
+              <div class="row">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/portraits/portrait_tracy.png" class="center-block"/>
+              </div>
+              <div class="row mar15-top">
+                <h4 class="text-dblue text-center">Tracy Fullerton</h4>
+                <p class="text-center"><strong>USC Games</strong></p>
+              </div>
+            </div>
+          </a><!-- END: Tracy Fullerton -->
           <!-- Jonathan
           <a href="/hevga2wp/bio-jonathan/">
             <div class="col-sm-6 col-md-4 pad20 ec-profile">
